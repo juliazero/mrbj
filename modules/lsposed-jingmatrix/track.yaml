@@ -1,0 +1,5 @@
+id: lsposed-jingmatrix
+enable: true
+verified: true
+update_to: https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/magisk-loader/update/zygisk.json
+source: https://github.com/JingMatrix/LSPosed
