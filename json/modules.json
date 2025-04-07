@@ -1,0 +1,61 @@
+{
+  "id": "juloMolia",
+  "name": "Modules Repo by Julia",
+  "website": null,
+  "support": null,
+  "donate": null,
+  "submission": null,
+  "cover": "https://juliazero.github.io/Modules-Repo-by-Julia/assets/cover.webp",
+  "description": null,
+  "metadata": {
+    "version": 1,
+    "timestamp": 1744015569.898726
+  },
+  "modules": [
+    {
+      "id": "lsposed-jingmatrix",
+      "name": "Zygisk - LSPosed",
+      "version": "v1.10.1 (7115)",
+      "versionCode": 7115,
+      "author": "Jing Matrix & LSPosed Developers",
+      "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 15. Requires Magisk 26.0+ and Zygisk enabled.",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1729070017.0,
+      "size": 2608607,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP",
+        "magisk.permission.SEPOLICY",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true,
+        "sepolicy": true,
+        "webroot": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/JingMatrix/LSPosed",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1729070017.0,
+          "version": "v1.10.1 (7115)",
+          "versionCode": 7115,
+          "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7115.zip",
+          "changelog": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7115.md",
+          "size": 2608607
+        }
+      ]
+    }
+  ]
+}
