@@ -9,7 +9,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1744287470.684399
+    "timestamp": 1744656418.92141
   },
   "modules": [
     {
@@ -19,6 +19,7 @@
       "versionCode": 7115,
       "author": "Jing Matrix & LSPosed Developers",
       "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 15. Requires Magisk 26.0+ and Zygisk enabled.",
+      "minApi": 27,
       "verified": true,
       "added": 0,
       "timestamp": 1729070017.0,
