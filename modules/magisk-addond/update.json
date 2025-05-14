@@ -1,0 +1,14 @@
+{
+  "id": "magisk-addond",
+  "timestamp": 1682039400.0,
+  "versions": [
+    {
+      "timestamp": 1682039400.0,
+      "version": "Module (v1)",
+      "versionCode": 10,
+      "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/magisk-addond/Module_v1_10.zip",
+      "changelog": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/magisk-addond/Module_v1_10.md",
+      "size": 2256
+    }
+  ]
+}

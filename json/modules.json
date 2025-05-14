@@ -9,7 +9,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1747183670.229432
+    "timestamp": 1747195034.671573
   },
   "modules": [
     {
@@ -55,6 +55,35 @@
           "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7115.zip",
           "changelog": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7115.md",
           "size": 2608607
+        }
+      ]
+    },
+    {
+      "id": "magisk-addond",
+      "name": "Magisk Survival Script",
+      "version": "Module (v1)",
+      "versionCode": 10,
+      "author": "ip",
+      "description": "Magisk Survival (addon.d) script.",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1682039400.0,
+      "size": 2256,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/mModule/mSurvival",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/magisk-addond/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1682039400.0,
+          "version": "Module (v1)",
+          "versionCode": 10,
+          "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/magisk-addond/Module_v1_10.zip",
+          "changelog": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/magisk-addond/Module_v1_10.md",
+          "size": 2256
         }
       ]
     }
