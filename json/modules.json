@@ -9,26 +9,29 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1748455949.828554
+    "timestamp": 1748469836.430884
   },
   "modules": [
     {
       "id": "lsposed-jingmatrix",
       "name": "Zygisk - LSPosed",
-      "version": "v1.10.1 (7115)",
-      "versionCode": 7115,
+      "version": "v1.10.1 (7184)",
+      "versionCode": 7184,
       "author": "Jing Matrix & LSPosed Developers",
       "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 15. Requires Magisk 26.0+ and Zygisk enabled.",
       "minApi": 27,
+      "license": "GPL-3.0",
+      "readme": "https://github.com/JingMatrix/LSPosed#readme",
       "verified": true,
       "added": 0,
-      "timestamp": 1729070017.0,
-      "size": 2608607,
+      "timestamp": 1748432110.0,
+      "size": 6415568,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
         "magisk.permission.RESETPROP",
         "magisk.permission.SEPOLICY",
+        "magisk.permission.ACTION",
         "kernelsu.permission.WEBUI",
         "mmrl.permission.APKS"
       ],
@@ -37,11 +40,12 @@
         "post_fs_data": true,
         "resetprop": true,
         "sepolicy": true,
+        "action": true,
         "webroot": true,
         "apks": true
       },
       "track": {
-        "type": "ONLINE_JSON",
+        "type": "ONLINE_ZIP",
         "added": null,
         "source": "https://github.com/JingMatrix/LSPosed",
         "antifeatures": null,
@@ -55,6 +59,14 @@
           "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7115.zip",
           "changelog": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7115.md",
           "size": 2608607
+        },
+        {
+          "timestamp": 1748432110.0,
+          "version": "v1.10.1 (7184)",
+          "versionCode": 7184,
+          "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7184.zip",
+          "changelog": "",
+          "size": 6415568
         }
       ]
     },

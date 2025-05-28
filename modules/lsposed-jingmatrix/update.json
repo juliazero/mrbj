@@ -9,6 +9,14 @@
       "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7115.zip",
       "changelog": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7115.md",
       "size": 2608607
+    },
+    {
+      "timestamp": 1748432110.0,
+      "version": "v1.10.1 (7184)",
+      "versionCode": 7184,
+      "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7184.zip",
+      "changelog": "",
+      "size": 6415568
     }
   ]
 }
