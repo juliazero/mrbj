@@ -5,6 +5,6 @@ update_to: https://nightly.link/JingMatrix/LSPosed/workflows/core/master/LSPosed
 license: GPL-3.0
 source: https://github.com/JingMatrix/LSPosed
 minApi: 27
-readme: https://github.com/JingMatrix/LSPosed#readme
+readme: https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/README.md
 last_update: 1748432110.0
 versions: 2
