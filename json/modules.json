@@ -9,7 +9,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1748469836.430884
+    "timestamp": 1748471024.611918
   },
   "modules": [
     {
@@ -21,7 +21,7 @@
       "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 15. Requires Magisk 26.0+ and Zygisk enabled.",
       "minApi": 27,
       "license": "GPL-3.0",
-      "readme": "https://github.com/JingMatrix/LSPosed#readme",
+      "readme": "https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/README.md",
       "verified": true,
       "added": 0,
       "timestamp": 1748432110.0,
