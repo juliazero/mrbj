@@ -5,8 +5,8 @@
   "support": null,
   "donate": null,
   "submission": null,
-  "base_url": "https://juliazero.github.io/Modules-Repo-by-Julia/",
-  "description": null,
+  "base_url": "https://juliazero.github.io/mrbj/",
+  "description": "My small modules repo.",
   "max_num": 3,
   "enable_log": true,
   "log_dir": "log"

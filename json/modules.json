@@ -49,53 +49,24 @@
         "added": null,
         "source": "https://github.com/JingMatrix/LSPosed",
         "antifeatures": null,
-        "build_metadata": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/track.yaml"
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/lsposed-jingmatrix/track.yaml"
       },
       "versions": [
         {
           "timestamp": 1729070017.0,
           "version": "v1.10.1 (7115)",
           "versionCode": 7115,
-          "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7115.zip",
-          "changelog": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7115.md",
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/lsposed-jingmatrix/v1.10.1_7115.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/lsposed-jingmatrix/v1.10.1_7115.md",
           "size": 2608607
         },
         {
           "timestamp": 1748432110.0,
           "version": "v1.10.1 (7184)",
           "versionCode": 7184,
-          "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7184.zip",
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/lsposed-jingmatrix/v1.10.1_7184.zip",
           "changelog": "",
           "size": 6415568
-        }
-      ]
-    },
-    {
-      "id": "magisk-addond",
-      "name": "Magisk Survival Script",
-      "version": "Module (v1)",
-      "versionCode": 10,
-      "author": "ip",
-      "description": "Magisk Survival (addon.d) script.",
-      "verified": true,
-      "added": 0,
-      "timestamp": 1682039400.0,
-      "size": 2256,
-      "track": {
-        "type": "ONLINE_JSON",
-        "added": null,
-        "source": "https://github.com/mModule/mSurvival",
-        "antifeatures": null,
-        "build_metadata": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/magisk-addond/track.yaml"
-      },
-      "versions": [
-        {
-          "timestamp": 1682039400.0,
-          "version": "Module (v1)",
-          "versionCode": 10,
-          "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/magisk-addond/Module_v1_10.zip",
-          "changelog": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/magisk-addond/Module_v1_10.md",
-          "size": 2256
         }
       ]
     }
