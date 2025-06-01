@@ -1,15 +1,15 @@
 {
-  "id": "juloMolia",
+  "id": "julgitrbj",
   "name": "Modules Repo by Julia",
   "website": null,
   "support": null,
   "donate": null,
   "submission": null,
-  "cover": "https://juliazero.github.io/Modules-Repo-by-Julia/assets/cover.webp",
-  "description": null,
+  "cover": "https://juliazero.github.io/mrbj/assets/cover.webp",
+  "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1748801535.884795
+    "timestamp": 1748819142.673402
   },
   "modules": [
     {
@@ -56,15 +56,15 @@
           "timestamp": 1729070017.0,
           "version": "v1.10.1 (7115)",
           "versionCode": 7115,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/lsposed-jingmatrix/v1.10.1_7115.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/lsposed-jingmatrix/v1.10.1_7115.md",
+          "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7115.zip",
+          "changelog": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7115.md",
           "size": 2608607
         },
         {
           "timestamp": 1748432110.0,
           "version": "v1.10.1 (7184)",
           "versionCode": 7184,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/lsposed-jingmatrix/v1.10.1_7184.zip",
+          "zipUrl": "https://juliazero.github.io/Modules-Repo-by-Julia/modules/lsposed-jingmatrix/v1.10.1_7184.zip",
           "changelog": "",
           "size": 6415568
         }
