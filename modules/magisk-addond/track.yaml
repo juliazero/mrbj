@@ -1,7 +1,0 @@
-id: magisk-addond
-enable: true
-verified: true
-update_to: https://raw.githubusercontent.com/mModule/mSurvival/refs/heads/master/mSurvival.json
-source: https://github.com/mModule/mSurvival
-last_update: 1682039400.0
-versions: 1
