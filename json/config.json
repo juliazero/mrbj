@@ -1,13 +1,13 @@
 {
   "id": "mrbj",
   "name": "Modules Repo by Julia",
-  "website": null,
+  "website": "https://github.com/juliazero/mrbj",
   "support": null,
-  "donate": null,
+  "donate": "https://ko-fi.com/juliazero",
   "submission": null,
   "base_url": "https://juliazero.github.io/mrbj/",
   "description": "My small modules repo.",
-  "max_num": 3,
+  "max_num": 4,
   "enable_log": true,
   "log_dir": "log"
 }
