@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1748959864.879081
+    "timestamp": 1748973096.649618
   },
   "modules": [
     {
@@ -49,7 +49,7 @@
         "added": null,
         "source": "https://github.com/JingMatrix/LSPosed",
         "antifeatures": null,
-        "build_metadata": "https://juliazero.github.io/mrbj/modules/lsposed-jingmatrix/track.yaml"
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/track.yaml"
       },
       "versions": [
         {
