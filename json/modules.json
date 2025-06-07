@@ -9,14 +9,14 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1749276786.714347
+    "timestamp": 1749292356.314747
   },
   "modules": [
     {
       "id": "zygisk_lsposed",
       "name": "Zygisk - LSPosed",
-      "version": "v1.10.1 (7183)",
-      "versionCode": 7183,
+      "version": "v1.10.1 (7184)",
+      "versionCode": 7184,
       "author": "Jing Matrix & LSPosed Developers",
       "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 15. Requires Magisk 26.0+ and Zygisk enabled.",
       "minApi": 27,
@@ -25,8 +25,8 @@
       "readme": "https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/README.md",
       "verified": true,
       "added": 0,
-      "timestamp": 1748840519.0,
-      "size": 6418349,
+      "timestamp": 1749120208.0,
+      "size": 6418447,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -60,6 +60,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.1_7183.zip",
           "changelog": "",
           "size": 6418349
+        },
+        {
+          "timestamp": 1749120208.0,
+          "version": "v1.10.1 (7184)",
+          "versionCode": 7184,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.1_7184.zip",
+          "changelog": "",
+          "size": 6418447
         }
       ]
     }
