@@ -33,11 +33,3 @@ jobs:
             git commit -m "Update LSPosed version from nightly.link" &&
             git push
           )
-
-      - name: Trigger sync_build_deploy.yml
-        if: success()
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: sync_build_deploy.yml
-          inputs: '{ "run_sync": "Yes" }'
-          token: ${{ secrets.GITHUB_TOKEN }}
