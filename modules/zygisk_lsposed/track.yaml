@@ -2,11 +2,12 @@ id: zygisk_lsposed
 enable: true
 update_to: https://github.com/JingMatrix/LSPosed.git
 source: https://github.com/JingMatrix/LSPosed
-options:
-  github:
-    source: actions # or `releases` what ever you want
 license: GPL-3.0
 minApi: 27
 icon: https://avatars.githubusercontent.com/u/75879071?s=200&v=4
 readme: https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/README.md
 versions: 2
+
+options:
+  github:
+    source: actions
