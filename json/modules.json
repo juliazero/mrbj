@@ -9,9 +9,50 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1750681202.85302
+    "timestamp": 1750684060.018842
   },
   "modules": [
+    {
+      "id": "playintegrityfix",
+      "name": "Play Integrity Fork",
+      "version": "v13",
+      "versionCode": 130000,
+      "author": "osm0sis & chiteroman @ xda-developers",
+      "description": "Fix <A13 DEVICE (Play Integrity) verdict",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/osm0sis/PlayIntegrityFork/refs/heads/master/README.md",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1747424290.0,
+      "size": 268323,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/osm0sis/PlayIntegrityFork",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/playintegrityfix/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1747424290.0,
+          "version": "v13",
+          "versionCode": 130000,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v13_130000.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v13_130000.md",
+          "size": 268323
+        }
+      ]
+    },
     {
       "id": "zygisk_lsposed",
       "name": "Zygisk - LSPosed",
