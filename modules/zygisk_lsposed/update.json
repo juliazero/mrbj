@@ -3,14 +3,6 @@
   "timestamp": 1748840519.0,
   "versions": [
     {
-      "timestamp": 1749120208.0,
-      "version": "v1.10.1 (7184)",
-      "versionCode": 7184,
-      "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.1_7184.zip",
-      "changelog": "",
-      "size": 6418447
-    },
-    {
       "timestamp": 1750763256.0,
       "version": "v1.10.1 (7185)",
       "versionCode": 7185,
@@ -25,6 +17,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.1_7186.zip",
       "changelog": "",
       "size": 6501506
+    },
+    {
+      "timestamp": 1751965491.0,
+      "version": "v1.10.1 (7187)",
+      "versionCode": 7187,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.1_7187.zip",
+      "changelog": "",
+      "size": 6501577
     }
   ]
 }
