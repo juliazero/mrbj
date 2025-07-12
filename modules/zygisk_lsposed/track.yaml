@@ -6,6 +6,6 @@ license: GPL-3.0
 minApi: 27
 readme: https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/README.md
 source: https://github.com/JingMatrix/LSPosed
-update_to: https://nightly.link/JingMatrix/LSPosed/workflows/core/master/LSPosed-v1.10.1-7183-zygisk-release.zip
+update_to: https://nightly.link/JingMatrix/LSPosed/workflows/core/master/LSPosed-v1.10.2-7183-zygisk-release.zip
 verified: true
 versions: 3
