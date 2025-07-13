@@ -1,9 +1,9 @@
-id: playintegrityfix
 enable: true
-verified: true
-update_to: https://raw.githubusercontent.com/osm0sis/PlayIntegrityFork/main/update.json
+id: playintegrityfix
+last_update: 1752336725.0
 license: GPL-3.0
-source: https://github.com/osm0sis/PlayIntegrityFork
-readme: https://raw.githubusercontent.com/osm0sis/PlayIntegrityFork/refs/heads/master/README.md
-last_update: 1747424290.0
+readme: https://raw.githubusercontent.com/KOWX712/PlayIntegrityFix/refs/heads/master/README.md
+source: https://github.com/KOWX712/PlayIntegrityFix
+update_to: https://raw.githubusercontent.com/KOWX712/PlayIntegrityFix/refs/heads/inject_s/update.json
+verified: true
 versions: 1

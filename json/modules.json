@@ -9,55 +9,57 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1752430807.136219
+    "timestamp": 1752439387.474861
   },
   "modules": [
     {
       "id": "playintegrityfix",
-      "name": "Play Integrity Fork",
-      "version": "v13",
-      "versionCode": 130000,
-      "author": "osm0sis & chiteroman @ xda-developers",
-      "description": "Fix <A13 DEVICE (Play Integrity) verdict",
+      "name": "Play Integrity Fix [INJECT]",
+      "version": "v4.2-inject-s",
+      "versionCode": 42,
+      "author": "chiteroman, KOWX712",
+      "description": "Universal modular fix for Play Integrity on devices running Android 8-16",
       "license": "GPL-3.0",
-      "readme": "https://raw.githubusercontent.com/osm0sis/PlayIntegrityFork/refs/heads/master/README.md",
+      "readme": "https://raw.githubusercontent.com/KOWX712/PlayIntegrityFix/refs/heads/master/README.md",
       "verified": true,
       "added": 0,
-      "timestamp": 1747424290.0,
-      "size": 268323,
+      "timestamp": 1752336725.0,
+      "size": 510952,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
-        "magisk.permission.ACTION"
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
       ],
       "features": {
         "service": true,
         "post_fs_data": true,
-        "action": true
+        "action": true,
+        "webroot": true
       },
       "track": {
         "type": "ONLINE_JSON",
         "added": null,
-        "source": "https://github.com/osm0sis/PlayIntegrityFork",
+        "source": "https://github.com/KOWX712/PlayIntegrityFix",
         "antifeatures": null,
         "build_metadata": "https://juliazero.github.io/mrbj/modules/playintegrityfix/track.yaml"
       },
       "versions": [
         {
-          "timestamp": 1747424290.0,
-          "version": "v13",
-          "versionCode": 130000,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v13_130000.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v13_130000.md",
-          "size": 268323
+          "timestamp": 1752336725.0,
+          "version": "v4.2-inject-s",
+          "versionCode": 42,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.2-inject-s_42.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.2-inject-s_42.md",
+          "size": 510952
         }
       ]
     },
     {
       "id": "zygisk_lsposed",
       "name": "Zygisk - LSPosed",
-      "version": "v1.10.1 (7187)",
-      "versionCode": 7187,
+      "version": "v1.10.1 (7186)",
+      "versionCode": 7186,
       "author": "Jing Matrix & LSPosed Developers",
       "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 15. Requires Magisk 26.0+ and Zygisk enabled.",
       "minApi": 27,
@@ -87,7 +89,7 @@
         "apks": true
       },
       "track": {
-        "type": "ONLINE_ZIP",
+        "type": "ONLINE_JSON",
         "added": null,
         "source": "https://github.com/JingMatrix/LSPosed",
         "antifeatures": null,
@@ -109,14 +111,6 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.1_7186.zip",
           "changelog": "",
           "size": 6501506
-        },
-        {
-          "timestamp": 1751965491.0,
-          "version": "v1.10.1 (7187)",
-          "versionCode": 7187,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.1_7187.zip",
-          "changelog": "",
-          "size": 6501577
         }
       ]
     }
