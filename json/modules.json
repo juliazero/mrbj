@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1752466955.048959
+    "timestamp": 1752469856.782191
   },
   "modules": [
     {
@@ -52,6 +52,57 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.2-inject-s_42.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.2-inject-s_42.md",
           "size": 510952
+        }
+      ]
+    },
+    {
+      "id": "zygisk_lsposed",
+      "name": "Zygisk - LSPosed",
+      "version": "v1.10.2 (7182)",
+      "versionCode": 7182,
+      "author": "JingMatrix & LSPosed Developers",
+      "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 16. Requires Magisk 26.0+ and Zygisk enabled.",
+      "minApi": 27,
+      "icon": "https://avatars.githubusercontent.com/u/75879071?s=200&v=4",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/README.md",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1752362984.0,
+      "size": 6507377,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true,
+        "sepolicy": true,
+        "action": true,
+        "webroot": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/JingMatrix/LSPosed",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1752362984.0,
+          "version": "v1.10.2 (7182)",
+          "versionCode": 7182,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.2_7182.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.2_7182.md",
+          "size": 6507377
         }
       ]
     }

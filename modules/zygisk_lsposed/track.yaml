@@ -1,9 +1,11 @@
 enable: true
 icon: https://avatars.githubusercontent.com/u/75879071?s=200&v=4
 id: zygisk_lsposed
+last_update: 1752362984.0
 license: GPL-3.0
 minApi: 27
 readme: https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/README.md
 source: https://github.com/JingMatrix/LSPosed
 update_to: https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/magisk-loader/update/zygisk.json
 verified: true
+versions: 1
