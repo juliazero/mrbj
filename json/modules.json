@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1753467756.43523
+    "timestamp": 1753473656.434469
   },
   "modules": [
     {
@@ -52,6 +52,49 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.2-inject-s_42.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.2-inject-s_42.md",
           "size": 510952
+        }
+      ]
+    },
+    {
+      "id": "tricky_store",
+      "name": "Tricky Store OSS",
+      "version": "v1.0.0 (107-2446437-release)",
+      "versionCode": 107,
+      "author": "5ec1cff, James Clef, beakthoven",
+      "description": "A trick of keystore but open source",
+      "minApi": 29,
+      "readme": "https://raw.githubusercontent.com/beakthoven/TrickyStore/refs/heads/master/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1753086375.0,
+      "size": 1101506,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/beakthoven/TrickyStore",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/tricky_store/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1753086375.0,
+          "version": "v1.0.0 (107-2446437-release)",
+          "versionCode": 107,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v1.0.0_107-2446437-release.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v1.0.0_107-2446437-release.md",
+          "size": 1101506
         }
       ]
     },
