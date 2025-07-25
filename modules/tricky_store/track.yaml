@@ -1,0 +1,6 @@
+enable: true
+id: tricky_store
+minApi: 29
+readme: https://raw.githubusercontent.com/beakthoven/TrickyStore/refs/heads/master/README.md
+source: https://github.com/beakthoven/TrickyStore
+update_to: https://raw.githubusercontent.com/beakthoven/TrickyStore/changelog/update.json
