@@ -1,0 +1,14 @@
+{
+  "id": "tricky_store",
+  "timestamp": 1754647656.0,
+  "versions": [
+    {
+      "timestamp": 1754647656.0,
+      "version": "v2.0.0 (33-b160dac-release)",
+      "versionCode": 33,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v2.0.0_33-b160dac-release.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v2.0.0_33-b160dac-release.md",
+      "size": 1204839
+    }
+  ]
+}

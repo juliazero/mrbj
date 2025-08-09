@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1754763653.536132
+    "timestamp": 1754774571.769483
   },
   "modules": [
     {
@@ -94,6 +94,47 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0-rc.3_390.zip",
           "changelog": "",
           "size": 436048
+        }
+      ]
+    },
+    {
+      "id": "tricky_store",
+      "name": "Tricky Store OSS",
+      "version": "v2.0.0 (33-b160dac-release)",
+      "versionCode": 33,
+      "author": "beakthoven",
+      "description": "A trick of keystore but open source.",
+      "minApi": 29,
+      "readme": "https://raw.githubusercontent.com/beakthoven/TrickyStoreOSS/refs/heads/master/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1754647656.0,
+      "size": 1204839,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/beakthoven/TrickyStoreOSS",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/tricky_store/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1754647656.0,
+          "version": "v2.0.0 (33-b160dac-release)",
+          "versionCode": 33,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v2.0.0_33-b160dac-release.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v2.0.0_33-b160dac-release.md",
+          "size": 1204839
         }
       ]
     },
