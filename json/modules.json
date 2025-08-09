@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1754742579.166373
+    "timestamp": 1754756287.915173
   },
   "modules": [
     {
@@ -52,6 +52,48 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.2-inject-s_42.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.2-inject-s_42.md",
           "size": 510952
+        }
+      ]
+    },
+    {
+      "id": "rezygisk",
+      "name": "ReZygisk",
+      "version": "v1.0.0-rc.3",
+      "versionCode": 390,
+      "author": "The PerformanC Organization",
+      "description": "Standalone implementation of Zygisk.",
+      "readme": "https://raw.githubusercontent.com/PerformanC/ReZygisk/refs/heads/main/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1752459593.0,
+      "size": 436048,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_ZIP",
+        "added": null,
+        "source": "https://github.com/PerformanC/ReZygisk",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/rezygisk/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1752459593.0,
+          "version": "v1.0.0-rc.3",
+          "versionCode": 390,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0-rc.3_390.zip",
+          "changelog": "",
+          "size": 436048
         }
       ]
     },
