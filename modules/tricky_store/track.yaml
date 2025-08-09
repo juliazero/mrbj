@@ -2,7 +2,7 @@ enable: true
 id: tricky_store
 last_update: 1753086375.0
 minApi: 29
-readme: https://raw.githubusercontent.com/beakthoven/TrickyStore/refs/heads/master/README.md
-source: https://github.com/beakthoven/TrickyStore
-update_to: https://raw.githubusercontent.com/beakthoven/TrickyStore/changelog/update.json
+readme: https://raw.githubusercontent.com/beakthoven/TrickyStoreOSS/refs/heads/master/README.md
+source: https://github.com/beakthoven/TrickyStoreOSS
+update_to: https://raw.githubusercontent.com/beakthoven/TrickyStoreOSS/changelog/update.json
 versions: 1

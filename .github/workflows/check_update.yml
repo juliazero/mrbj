@@ -1,4 +1,4 @@
-name: Check LSPosed Update
+name: Check ReZygisk Update
 
 on:
   schedule:
@@ -22,14 +22,14 @@ jobs:
         run: pip install pyyaml requests
 
       - name: Run update checker
-        run: python .github/scripts/check_update.py
+        run: python .github/scripts/check_rezygisk_update.py
 
       - name: Commit changes (if any)
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git diff --quiet || (
-            git add modules/zygisk_lsposed/track.yaml &&
-            git commit -m "Update LSPosed version from nightly.link" &&
+            git add modules/rezygisk/track.yaml &&
+            git commit -m "Update ReZygisk module" &&
             git push
           )
