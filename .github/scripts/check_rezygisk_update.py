@@ -2,7 +2,7 @@ import requests
 import yaml
 import os
 
-YAML_PATH = "modules/zygisk_rezygisk/track.yaml"
+YAML_PATH = "modules/rezygisk/track.yaml"
 REPO = "PerformanC/ReZygisk"
 
 # Pobranie aktualnej wersji z YAML
