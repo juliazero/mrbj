@@ -9,9 +9,161 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1754806932.596816
+    "timestamp": 1754827989.871465
   },
   "modules": [
+    {
+      "id": "TA_utl",
+      "name": "Tricky Addon - Update Target List",
+      "version": "v4.1",
+      "versionCode": 572,
+      "author": "KOWX712",
+      "description": "A WebUI to conifgure tricky store target.txt ",
+      "added": 1723905223.0,
+      "require": [
+        "tricky_store"
+      ],
+      "verified": true,
+      "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
+      "categories": [
+        "WebUI"
+      ],
+      "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
+      "note": {
+        "message": "This module is not a part of the Tricky Store module. DO NOT report any issues to Tricky Store if encountered"
+      },
+      "license": " GPL-3.0",
+      "timestamp": 1753440707.0,
+      "size": 4300641,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1723905223.0,
+        "source": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/TA_utl/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1743160152.0,
+          "version": "v3.7",
+          "versionCode": 370,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.7_370.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.7_370.md",
+          "size": 1243085
+        },
+        {
+          "timestamp": 1744208975.0,
+          "version": "v3.8",
+          "versionCode": 380,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.8_380.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.8_380.md",
+          "size": 1250054
+        },
+        {
+          "timestamp": 1744303722.0,
+          "version": "v3.8.1",
+          "versionCode": 381,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.8.1_381.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.8.1_381.md",
+          "size": 1250184
+        },
+        {
+          "timestamp": 1746893051.0,
+          "version": "v3.9",
+          "versionCode": 390,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.9_390.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.9_390.md",
+          "size": 1283556
+        },
+        {
+          "timestamp": 1750335605.0,
+          "version": "v4.0",
+          "versionCode": 538,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v4.0_538.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v4.0_538.md",
+          "size": 4286527
+        },
+        {
+          "timestamp": 1753440707.0,
+          "version": "v4.1",
+          "versionCode": 572,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v4.1_572.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v4.1_572.md",
+          "size": 4300641
+        }
+      ]
+    },
+    {
+      "id": "iOS_Emoji",
+      "name": "iOS 18.4 Emoji font",
+      "version": "v18.4",
+      "versionCode": 18400,
+      "author": "Keinta15",
+      "description": "Systemlessly replaces emoji font with iOS 18.4 Emoji",
+      "added": 1723905223.0,
+      "verified": false,
+      "timestamp": 1745678577.0,
+      "size": 42415955,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1723905223.0,
+        "source": "https://github.com/Keinta15/Magisk-iOS-Emoji",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1726620490.0,
+          "version": "v17.4.1",
+          "versionCode": 17401,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.1_17401.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.1_17401.md",
+          "size": 46425288
+        },
+        {
+          "timestamp": 1737177197.0,
+          "version": "v17.4.6",
+          "versionCode": 17406,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.6_17406.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.6_17406.md",
+          "size": 46426295
+        },
+        {
+          "timestamp": 1737858481.0,
+          "version": "v17.4.7",
+          "versionCode": 17407,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.7_17407.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.7_17407.md",
+          "size": 46426652
+        },
+        {
+          "timestamp": 1745678577.0,
+          "version": "v18.4",
+          "versionCode": 18400,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v18.4_18400.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v18.4_18400.md",
+          "size": 42415955
+        }
+      ]
+    },
     {
       "id": "playintegrityfix",
       "name": "Play Integrity Fix [INJECT]",
@@ -135,6 +287,51 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v2.0.0_33-b160dac-release.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v2.0.0_33-b160dac-release.md",
           "size": 1204839
+        }
+      ]
+    },
+    {
+      "id": "vbmeta-fixer",
+      "name": "VBMeta Fixer",
+      "version": "1.1.0",
+      "versionCode": 110,
+      "author": "Reveny",
+      "description": "Reset the VBMeta digest property with the correct boot hash to fix detection",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1745345451.0,
+      "size": 3235345,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/reveny/Android-VBMeta-Fixer",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/vbmeta-fixer/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1730300984.0,
+          "version": "1.0.5",
+          "versionCode": 105,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/vbmeta-fixer/1.0.5_105.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/vbmeta-fixer/1.0.5_105.md",
+          "size": 3138790
+        },
+        {
+          "timestamp": 1745345451.0,
+          "version": "1.1.0",
+          "versionCode": 110,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/vbmeta-fixer/1.1.0_110.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/vbmeta-fixer/1.1.0_110.md",
+          "size": 3235345
         }
       ]
     },
