@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1754915671.861608
+    "timestamp": 1754929388.043171
   },
   "modules": [
     {
@@ -252,16 +252,16 @@
     {
       "id": "tricky_store",
       "name": "Tricky Store OSS",
-      "version": "v2.0.0 (33-b160dac-release)",
-      "versionCode": 33,
+      "version": "v2.1.0 (41-b8b03e4-release)",
+      "versionCode": 41,
       "author": "beakthoven",
       "description": "A trick of keystore but open source.",
       "minApi": 29,
       "readme": "https://raw.githubusercontent.com/beakthoven/TrickyStoreOSS/refs/heads/master/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1754647656.0,
-      "size": 1204839,
+      "timestamp": 1754929127.0,
+      "size": 1208592,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -287,6 +287,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v2.0.0_33-b160dac-release.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v2.0.0_33-b160dac-release.md",
           "size": 1204839
+        },
+        {
+          "timestamp": 1754929127.0,
+          "version": "v2.1.0 (41-b8b03e4-release)",
+          "versionCode": 41,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v2.1.0_41-b8b03e4-release.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v2.1.0_41-b8b03e4-release.md",
+          "size": 1208592
         }
       ]
     },
