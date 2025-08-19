@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1755627632.605968
+    "timestamp": 1755630220.647049
   },
   "modules": [
     {
@@ -20,9 +20,6 @@
       "author": "KOWX712",
       "description": "A WebUI to conifgure tricky store target.txt ",
       "added": 1723905223.0,
-      "require": [
-        "tricky_store"
-      ],
       "verified": true,
       "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
       "categories": [
@@ -295,51 +292,6 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v2.1.0_41-b8b03e4-release.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v2.1.0_41-b8b03e4-release.md",
           "size": 1208592
-        }
-      ]
-    },
-    {
-      "id": "vbmeta-fixer",
-      "name": "VBMeta Fixer",
-      "version": "1.1.0",
-      "versionCode": 110,
-      "author": "Reveny",
-      "description": "Reset the VBMeta digest property with the correct boot hash to fix detection",
-      "verified": true,
-      "added": 0,
-      "timestamp": 1745345451.0,
-      "size": 3235345,
-      "permissions": [
-        "magisk.permission.SERVICE",
-        "mmrl.permission.APKS"
-      ],
-      "features": {
-        "service": true,
-        "apks": true
-      },
-      "track": {
-        "type": "ONLINE_JSON",
-        "added": null,
-        "source": "https://github.com/reveny/Android-VBMeta-Fixer",
-        "antifeatures": null,
-        "build_metadata": "https://juliazero.github.io/mrbj/modules/vbmeta-fixer/track.json"
-      },
-      "versions": [
-        {
-          "timestamp": 1730300984.0,
-          "version": "1.0.5",
-          "versionCode": 105,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/vbmeta-fixer/1.0.5_105.zip",
-          "changelog": "https://gr.dergoogler.com/gmr/modules/vbmeta-fixer/1.0.5_105.md",
-          "size": 3138790
-        },
-        {
-          "timestamp": 1745345451.0,
-          "version": "1.1.0",
-          "versionCode": 110,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/vbmeta-fixer/1.1.0_110.zip",
-          "changelog": "https://gr.dergoogler.com/gmr/modules/vbmeta-fixer/1.1.0_110.md",
-          "size": 3235345
         }
       ]
     },
