@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1756218891.906779
+    "timestamp": 1756226418.723916
   },
   "modules": [
     {
@@ -108,7 +108,6 @@
       "author": "chenxiaolong",
       "description": "Emulate mass storage devices over USB",
       "minApi": 30,
-      "cover": "https://github.com/chenxiaolong/MSD/raw/master/app/images/icon.svg",
       "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/README.md",
       "verified": false,
@@ -128,7 +127,7 @@
       "track": {
         "type": "ONLINE_JSON",
         "added": null,
-        "source": "ttps://github.com/chenxiaolong/MSD",
+        "source": "https://github.com/chenxiaolong/MSD",
         "antifeatures": null,
         "build_metadata": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/track.yaml"
       },
