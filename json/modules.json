@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1756211583.253762
+    "timestamp": 1756218891.906779
   },
   "modules": [
     {
@@ -54,49 +54,92 @@
           "timestamp": 1743160152.0,
           "version": "v3.7",
           "versionCode": 370,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v3.7_370.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v3.7_370.md",
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.7_370.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.7_370.md",
           "size": 1243085
         },
         {
           "timestamp": 1744208975.0,
           "version": "v3.8",
           "versionCode": 380,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v3.8_380.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v3.8_380.md",
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.8_380.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.8_380.md",
           "size": 1250054
         },
         {
           "timestamp": 1744303722.0,
           "version": "v3.8.1",
           "versionCode": 381,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v3.8.1_381.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v3.8.1_381.md",
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.8.1_381.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.8.1_381.md",
           "size": 1250184
         },
         {
           "timestamp": 1746893051.0,
           "version": "v3.9",
           "versionCode": 390,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v3.9_390.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v3.9_390.md",
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.9_390.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.9_390.md",
           "size": 1283556
         },
         {
           "timestamp": 1750335605.0,
           "version": "v4.0",
           "versionCode": 538,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.0_538.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.0_538.md",
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v4.0_538.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v4.0_538.md",
           "size": 4286527
         },
         {
           "timestamp": 1753440707.0,
           "version": "v4.1",
           "versionCode": 572,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.1_572.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.1_572.md",
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v4.1_572.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v4.1_572.md",
           "size": 4300641
+        }
+      ]
+    },
+    {
+      "id": "com.chiller3.msd",
+      "name": "MSD",
+      "version": "v1.15",
+      "versionCode": 69376,
+      "author": "chenxiaolong",
+      "description": "Emulate mass storage devices over USB",
+      "minApi": 30,
+      "cover": "https://github.com/chenxiaolong/MSD/raw/master/app/images/icon.svg",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1756002765.0,
+      "size": 3194821,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "ttps://github.com/chenxiaolong/MSD",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1756002765.0,
+          "version": "v1.15",
+          "versionCode": 69376,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.15_69376.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.15_69376.md",
+          "size": 3194821
         }
       ]
     },
@@ -131,32 +174,32 @@
           "timestamp": 1726620490.0,
           "version": "v17.4.1",
           "versionCode": 17401,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v17.4.1_17401.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v17.4.1_17401.md",
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.1_17401.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.1_17401.md",
           "size": 46425288
         },
         {
           "timestamp": 1737177197.0,
           "version": "v17.4.6",
           "versionCode": 17406,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v17.4.6_17406.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v17.4.6_17406.md",
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.6_17406.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.6_17406.md",
           "size": 46426295
         },
         {
           "timestamp": 1737858481.0,
           "version": "v17.4.7",
           "versionCode": 17407,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v17.4.7_17407.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v17.4.7_17407.md",
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.7_17407.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.7_17407.md",
           "size": 46426652
         },
         {
           "timestamp": 1745678577.0,
           "version": "v18.4",
           "versionCode": 18400,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v18.4_18400.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v18.4_18400.md",
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v18.4_18400.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v18.4_18400.md",
           "size": 42415955
         }
       ]

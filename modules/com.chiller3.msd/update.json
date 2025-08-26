@@ -1,0 +1,14 @@
+{
+  "id": "com.chiller3.msd",
+  "timestamp": 1756002765.0,
+  "versions": [
+    {
+      "timestamp": 1756002765.0,
+      "version": "v1.15",
+      "versionCode": 69376,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.15_69376.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.15_69376.md",
+      "size": 3194821
+    }
+  ]
+}
