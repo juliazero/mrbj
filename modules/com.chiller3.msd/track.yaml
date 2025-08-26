@@ -1,0 +1,9 @@
+enable: true
+id: com.chiller3.msd
+minApi: 30
+readme: https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/README.md
+source: ttps://github.com/chenxiaolong/MSD
+update_to: https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/app/module/updates/release/info.json
+license: GPL-3.0
+changelog: https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/CHANGELOG.md
+cover: https://github.com/chenxiaolong/MSD/raw/master/app/images/icon.svg
