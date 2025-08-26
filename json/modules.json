@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1756246248.853358
+    "timestamp": 1756247014.158476
   },
   "modules": [
     {
@@ -246,7 +246,9 @@
       "author": "beakthoven",
       "description": "A trick of keystore but open source.",
       "minApi": 29,
-      "category": "Integrity Tools",
+      "categories": [
+        "Integrity Tools"
+      ],
       "readme": "https://raw.githubusercontent.com/beakthoven/TrickyStoreOSS/refs/heads/master/README.md",
       "verified": false,
       "added": 0,
@@ -296,7 +298,9 @@
       "author": "JingMatrix & LSPosed Developers",
       "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 16. Requires Magisk 26.0+ and Zygisk enabled.",
       "minApi": 27,
-      "category": "Tools",
+      "categories": [
+        "Tools"
+      ],
       "icon": "https://avatars.githubusercontent.com/u/75879071?s=200&v=4",
       "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/README.md",
