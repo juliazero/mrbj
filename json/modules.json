@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1756232439.24449
+    "timestamp": 1756246248.853358
   },
   "modules": [
     {
@@ -20,11 +20,11 @@
       "author": "KOWX712",
       "description": "A WebUI to conifgure tricky store target.txt ",
       "added": 1723905223.0,
-      "verified": true,
-      "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
       "categories": [
         "WebUI"
       ],
+      "verified": true,
+      "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
       "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
       "note": {
         "message": "This module is not a part of the Tricky Store module. DO NOT report any issues to Tricky Store if encountered"
@@ -47,7 +47,7 @@
         "added": 1723905223.0,
         "source": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
         "antifeatures": null,
-        "build_metadata": "https://juliazero.github.io/mrbj/modules/TA_utl/track.json"
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/TA_utl/track.yaml"
       },
       "versions": [
         {
@@ -108,6 +108,9 @@
       "author": "chenxiaolong",
       "description": "Emulate mass storage devices over USB",
       "minApi": 30,
+      "categories": [
+        "Tools"
+      ],
       "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/README.md",
       "verified": false,
@@ -143,73 +146,16 @@
       ]
     },
     {
-      "id": "iOS_Emoji",
-      "name": "iOS 18.4 Emoji font",
-      "version": "v18.4",
-      "versionCode": 18400,
-      "author": "Keinta15",
-      "description": "Systemlessly replaces emoji font with iOS 18.4 Emoji",
-      "added": 1723905223.0,
-      "verified": false,
-      "timestamp": 1745678577.0,
-      "size": 42415955,
-      "permissions": [
-        "magisk.permission.SERVICE",
-        "magisk.permission.ACTION"
-      ],
-      "features": {
-        "service": true,
-        "action": true
-      },
-      "track": {
-        "type": "ONLINE_JSON",
-        "added": 1723905223.0,
-        "source": "https://github.com/Keinta15/Magisk-iOS-Emoji",
-        "antifeatures": null,
-        "build_metadata": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/track.json"
-      },
-      "versions": [
-        {
-          "timestamp": 1726620490.0,
-          "version": "v17.4.1",
-          "versionCode": 17401,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.1_17401.zip",
-          "changelog": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.1_17401.md",
-          "size": 46425288
-        },
-        {
-          "timestamp": 1737177197.0,
-          "version": "v17.4.6",
-          "versionCode": 17406,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.6_17406.zip",
-          "changelog": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.6_17406.md",
-          "size": 46426295
-        },
-        {
-          "timestamp": 1737858481.0,
-          "version": "v17.4.7",
-          "versionCode": 17407,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.7_17407.zip",
-          "changelog": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v17.4.7_17407.md",
-          "size": 46426652
-        },
-        {
-          "timestamp": 1745678577.0,
-          "version": "v18.4",
-          "versionCode": 18400,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v18.4_18400.zip",
-          "changelog": "https://gr.dergoogler.com/gmr/modules/iOS_Emoji/v18.4_18400.md",
-          "size": 42415955
-        }
-      ]
-    },
-    {
       "id": "playintegrityfix",
       "name": "Play Integrity Fix [INJECT]",
       "version": "v4.2-inject-s",
       "versionCode": 42,
       "author": "chiteroman, KOWX712",
       "description": "Universal modular fix for Play Integrity on devices running Android 8-16",
+      "categories": [
+        "Integrity Tools",
+        "WebUI"
+      ],
       "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/KOWX712/PlayIntegrityFix/refs/heads/master/README.md",
       "verified": true,
@@ -253,6 +199,10 @@
       "versionCode": 390,
       "author": "The PerformanC Organization",
       "description": "Standalone implementation of Zygisk.",
+      "categories": [
+        "WebUI",
+        "Tools"
+      ],
       "readme": "https://raw.githubusercontent.com/PerformanC/ReZygisk/refs/heads/main/README.md",
       "verified": false,
       "added": 0,
@@ -296,6 +246,7 @@
       "author": "beakthoven",
       "description": "A trick of keystore but open source.",
       "minApi": 29,
+      "category": "Integrity Tools",
       "readme": "https://raw.githubusercontent.com/beakthoven/TrickyStoreOSS/refs/heads/master/README.md",
       "verified": false,
       "added": 0,
@@ -345,6 +296,7 @@
       "author": "JingMatrix & LSPosed Developers",
       "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 16. Requires Magisk 26.0+ and Zygisk enabled.",
       "minApi": 27,
+      "category": "Tools",
       "icon": "https://avatars.githubusercontent.com/u/75879071?s=200&v=4",
       "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/README.md",
