@@ -7,3 +7,6 @@ source: https://github.com/KOWX712/PlayIntegrityFix
 update_to: https://raw.githubusercontent.com/KOWX712/PlayIntegrityFix/refs/heads/inject_s/update.json
 verified: true
 versions: 1
+categories:
+  - "Integrity Tools"
+  - "WebUI"

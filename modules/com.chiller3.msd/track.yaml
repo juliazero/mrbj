@@ -7,4 +7,6 @@ minApi: 30
 readme: https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/README.md
 source: https://github.com/chenxiaolong/MSD
 update_to: https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/app/module/updates/release/info.json
+categories:
+  - "Tools"
 versions: 1

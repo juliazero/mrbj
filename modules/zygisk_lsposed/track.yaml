@@ -8,4 +8,5 @@ readme: https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/R
 source: https://github.com/JingMatrix/LSPosed
 update_to: https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/magisk-loader/update/zygisk.json
 verified: true
+category: "Tools"
 versions: 1
