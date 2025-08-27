@@ -8,4 +8,6 @@ verified: true
 categories:
   - "Integrity Tools"
   - "WebUI"
+options:
+  disableRemoteMetadata: true
 versions: 1
