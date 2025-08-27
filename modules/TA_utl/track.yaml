@@ -1,11 +1,11 @@
 added: 1723905223.0
-categories:
-- Integrity Tools
-- WebUI
 enable: true
 id: TA_utl
 last_update: 1753440707.0
 source: https://github.com/KOWX712/Tricky-Addon-Update-Target-List
 update_to: https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/update.json
 verified: true
+categories:
+  - "Integrity Tools"
+  - "WebUI"
 versions: 1
