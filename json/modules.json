@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1756304116.717987
+    "timestamp": 1756305059.71438
   },
   "modules": [
     {
@@ -160,8 +160,8 @@
       "author": "The PerformanC Organization",
       "description": "Standalone implementation of Zygisk.",
       "categories": [
-        "WebUI",
-        "Tools"
+        "Tools",
+        "WebUI"
       ],
       "readme": "https://raw.githubusercontent.com/PerformanC/ReZygisk/refs/heads/main/README.md",
       "verified": false,
