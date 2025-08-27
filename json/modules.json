@@ -21,6 +21,7 @@
       "description": "A WebUI to conifgure tricky store target.txt ",
       "added": 1723905223.0,
       "categories": [
+        "Integrity Tools",
         "WebUI"
       ],
       "verified": true,
