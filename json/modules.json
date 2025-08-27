@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1756305059.71438
+    "timestamp": 1756310305.692318
   },
   "modules": [
     {
@@ -21,15 +21,10 @@
       "description": "A WebUI to conifgure tricky store target.txt ",
       "added": 1723905223.0,
       "categories": [
+        "Integrity Tools",
         "WebUI"
       ],
       "verified": true,
-      "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
-      "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
-      "note": {
-        "message": "This module is not a part of the Tricky Store module. DO NOT report any issues to Tricky Store if encountered"
-      },
-      "license": " GPL-3.0",
       "timestamp": 1753440707.0,
       "size": 4300641,
       "permissions": [
