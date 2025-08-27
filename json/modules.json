@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1756297820.303977
+    "timestamp": 1756303699.414846
   },
   "modules": [
     {
@@ -21,7 +21,6 @@
       "description": "A WebUI to conifgure tricky store target.txt ",
       "added": 1723905223.0,
       "categories": [
-        "Integrity Tools",
         "WebUI"
       ],
       "verified": true,
