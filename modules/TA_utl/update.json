@@ -1,0 +1,14 @@
+{
+  "id": "TA_utl",
+  "timestamp": 1753440707.0,
+  "versions": [
+    {
+      "timestamp": 1753440707.0,
+      "version": "v4.1",
+      "versionCode": 572,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.1_572.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.1_572.md",
+      "size": 4300641
+    }
+  ]
+}

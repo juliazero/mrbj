@@ -9,9 +9,57 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1756303699.414846
+    "timestamp": 1756304116.717987
   },
   "modules": [
+    {
+      "id": "TA_utl",
+      "name": "Tricky Addon - Update Target List",
+      "version": "v4.1",
+      "versionCode": 572,
+      "author": "KOWX712",
+      "description": "A WebUI to conifgure tricky store target.txt ",
+      "added": 1723905223.0,
+      "categories": [
+        "WebUI"
+      ],
+      "verified": true,
+      "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
+      "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
+      "note": {
+        "message": "This module is not a part of the Tricky Store module. DO NOT report any issues to Tricky Store if encountered"
+      },
+      "license": " GPL-3.0",
+      "timestamp": 1753440707.0,
+      "size": 4300641,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1723905223.0,
+        "source": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/TA_utl/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1753440707.0,
+          "version": "v4.1",
+          "versionCode": 572,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.1_572.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.1_572.md",
+          "size": 4300641
+        }
+      ]
+    },
     {
       "id": "com.chiller3.msd",
       "name": "MSD",
