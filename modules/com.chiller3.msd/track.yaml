@@ -1,12 +1,12 @@
+categories:
+- Tools
 changelog: https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/CHANGELOG.md
 enable: true
 id: com.chiller3.msd
-last_update: 1756002765.0
+last_update: 1757733787.0
 license: GPL-3.0
 minApi: 30
 readme: https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/README.md
 source: https://github.com/chenxiaolong/MSD
 update_to: https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/app/module/updates/release/info.json
-categories:
-  - "Tools"
-versions: 1
+versions: 2

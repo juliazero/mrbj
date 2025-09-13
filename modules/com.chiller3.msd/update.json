@@ -9,6 +9,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.15_69376.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.15_69376.md",
       "size": 3194821
+    },
+    {
+      "timestamp": 1757733787.0,
+      "version": "v1.16",
+      "versionCode": 69632,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.16_69632.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.16_69632.md",
+      "size": 3233730
     }
   ]
 }
