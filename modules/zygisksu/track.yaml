@@ -1,0 +1,10 @@
+enable: true
+id: zygisksu
+readme: https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/README.md
+changelog: https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/module/changelog.md
+source: https://github.com/JingMatrix/NeoZygisk
+update_to: https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/module/zygisk.json
+categories:
+  - "Tools"
+  - "Integrity Tools"
+  
