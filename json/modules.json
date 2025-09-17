@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1758112183.003328
+    "timestamp": 1758120009.986562
   },
   "modules": [
     {
@@ -172,6 +172,7 @@
       "description": "Standalone implementation of Zygisk.",
       "categories": [
         "Tools",
+        "Integrity Tools",
         "WebUI"
       ],
       "readme": "https://raw.githubusercontent.com/PerformanC/ReZygisk/refs/heads/main/README.md",
