@@ -1,0 +1,14 @@
+{
+  "id": "zygisksu",
+  "timestamp": 1757862999.0,
+  "versions": [
+    {
+      "timestamp": 1757862999.0,
+      "version": "v2.2 (266-559fc1d-release)",
+      "versionCode": 266,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisksu/v2.2_266-559fc1d-release.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/zygisksu/v2.2_266-559fc1d-release.md",
+      "size": 3285848
+    }
+  ]
+}

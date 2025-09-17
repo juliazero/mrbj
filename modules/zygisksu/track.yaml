@@ -1,10 +1,11 @@
+categories:
+- Tools
+- Integrity Tools
+changelog: https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/module/changelog.md
 enable: true
 id: zygisksu
+last_update: 1757862999.0
 readme: https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/README.md
-changelog: https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/module/changelog.md
 source: https://github.com/JingMatrix/NeoZygisk
 update_to: https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/module/zygisk.json
-categories:
-  - "Tools"
-  - "Integrity Tools"
-  
+versions: 1
