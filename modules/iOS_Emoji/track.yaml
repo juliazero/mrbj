@@ -3,4 +3,5 @@ enable: true
 verified: true
 update_to: "https://raw.githubusercontent.com/Keinta15/Magisk-iOS-Emoji/refs/heads/main/updater.json"
 source: "https://github.com/Keinta15/Magisk-iOS-Emoji"
-category: "Themes"
+categories: 
+  - "Themes"
