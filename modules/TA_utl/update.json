@@ -9,6 +9,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.1_572.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.1_572.md",
       "size": 4300641
+    },
+    {
+      "timestamp": 1761057007.0,
+      "version": "v4.2",
+      "versionCode": 618,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.2_618.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.2_618.md",
+      "size": 3117854
     }
   ]
 }
