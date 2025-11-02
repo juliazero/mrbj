@@ -4,10 +4,10 @@ categories:
 - WebUI
 enable: true
 id: TA_utl
-last_update: 1761057007.0
+last_update: 1762093319.0
 options:
   disableRemoteMetadata: true
 source: https://github.com/KOWX712/Tricky-Addon-Update-Target-List
 update_to: https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/update.json
 verified: true
-versions: 2
+versions: 3

@@ -17,6 +17,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.3-inject-s_43.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.3-inject-s_43.md",
       "size": 512908
+    },
+    {
+      "timestamp": 1762093943.0,
+      "version": "v4.4-inject-s",
+      "versionCode": 44,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.4-inject-s_44.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.4-inject-s_44.md",
+      "size": 598301
     }
   ]
 }

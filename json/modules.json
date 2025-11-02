@@ -9,14 +9,14 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1762086428.20377
+    "timestamp": 1762107492.889311
   },
   "modules": [
     {
       "id": "TA_utl",
       "name": "Tricky Addon - Update Target List",
-      "version": "v4.2",
-      "versionCode": 618,
+      "version": "v4.3",
+      "versionCode": 635,
       "author": "KOWX712",
       "description": "A WebUI to conifgure tricky store target.txt ",
       "added": 1723905223.0,
@@ -25,8 +25,8 @@
         "WebUI"
       ],
       "verified": true,
-      "timestamp": 1761057007.0,
-      "size": 3117854,
+      "timestamp": 1762093319.0,
+      "size": 3120144,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -60,6 +60,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.2_618.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.2_618.md",
           "size": 3117854
+        },
+        {
+          "timestamp": 1762093319.0,
+          "version": "v4.3",
+          "versionCode": 635,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.3_635.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.3_635.md",
+          "size": 3120144
         }
       ]
     },
@@ -167,8 +175,8 @@
     {
       "id": "playintegrityfix",
       "name": "Play Integrity Fix [INJECT]",
-      "version": "v4.3-inject-s",
-      "versionCode": 43,
+      "version": "v4.4-inject-s",
+      "versionCode": 44,
       "author": "chiteroman, KOWX712",
       "description": "Universal modular fix for Play Integrity on devices running Android 8-16",
       "categories": [
@@ -179,17 +187,19 @@
       "readme": "https://raw.githubusercontent.com/KOWX712/PlayIntegrityFix/refs/heads/master/README.md",
       "verified": true,
       "added": 0,
-      "timestamp": 1756811549.0,
-      "size": 512908,
+      "timestamp": 1762093943.0,
+      "size": 598301,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ZYGISK",
         "magisk.permission.ACTION",
         "kernelsu.permission.WEBUI"
       ],
       "features": {
         "service": true,
         "post_fs_data": true,
+        "zygisk": true,
         "action": true,
         "webroot": true
       },
@@ -216,6 +226,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.3-inject-s_43.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.3-inject-s_43.md",
           "size": 512908
+        },
+        {
+          "timestamp": 1762093943.0,
+          "version": "v4.4-inject-s",
+          "versionCode": 44,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.4-inject-s_44.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.4-inject-s_44.md",
+          "size": 598301
         }
       ]
     },
