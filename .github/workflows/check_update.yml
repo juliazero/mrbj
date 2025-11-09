@@ -1,35 +1,99 @@
-name: Check ReZygisk Update
+name: ReZygisk - update track.yaml
 
+# uruchom co 4h oraz ręcznie
 on:
   schedule:
-    - cron: '0 23/6 * * *'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  check-update:
+  check_and_update:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          python-version: 3.11
+          fetch-depth: 0
 
-      - name: Install dependencies
-        run: pip install pyyaml requests
+      - name: Get latest release asset (release, not debug)
+        id: geturl
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const owner = 'PerformanC';
+            const repo = 'ReZygisk';
 
-      - name: Run update checker
-        run: python .github/scripts/check_rezygisk_update.py
+            const release = await github.rest.repos.getLatestRelease({ owner, repo });
+            const assets = release.data.assets || [];
 
-      - name: Commit changes (if any)
+            // wybierz asset zawierający "-release.zip" i nie "debug"
+            const asset = assets.find(a => a.name.endsWith('-release.zip'));
+
+            if (!asset) {
+              throw new Error('No suitable release asset found (expected *-release.zip)');
+            }
+
+            core.setOutput('asset_url', asset.browser_download_url);
+            core.setOutput('asset_name', asset.name);
+
+      - name: Show chosen asset
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
-          git diff --quiet || (
-            git add modules/rezygisk/track.yaml &&
-            git commit -m "Update ReZygisk module" &&
-            git push
-          )
+          echo 'Latest release asset:' "${{ steps.geturl.outputs.asset_name }}"
+          echo 'Download URL:' "${{ steps.geturl.outputs.asset_url }}"
+
+      - name: Ensure file exists
+        run: |
+          file="modules/rezygisk/track.yaml"
+          if [ ! -f "$file" ]; then
+            echo "ERROR: $file not found"
+            exit 1
+          fi
+        shell: bash
+
+      - name: Update update_to in modules/rezygisk/track.yaml (only if changed)
+        id: update_yaml
+        run: |
+          set -eu
+          file="modules/rezygisk/track.yaml"
+          new_url="${{ steps.geturl.outputs.asset_url }}"
+
+          # sprawdź czy już jest aktualne
+          if grep -Fq "$new_url" "$file"; then
+            echo "No changes needed."
+            echo "changed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Zamień linię update_to (obsłuż różne spacingi)
+          # Używamy tymczasowego pliku aby być bezpiecznym
+          tmp="$(mktemp)"
+          awk -v url="$new_url" '
+            BEGIN { replaced=0 }
+            /^update_to:[[:space:]]*/ {
+              print "update_to: " url
+              replaced=1
+              next
+            }
+            { print }
+            END { if(!replaced) { print ""; print "update_to: " url } }
+          ' "$file" > "$tmp"
+          mv "$tmp" "$file"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$file"
+          git commit -m "chore(rezygisk): bump update_to to $ (basename "$new_url")" || true
+          git push
+          echo "changed=true" >> $GITHUB_OUTPUT
+        shell: bash
+
+      - name: Result
+        run: |
+          if [ "${{ steps.update_yaml.outputs.changed }}" = "true" ]; then
+            echo "track.yaml updated and pushed."
+          else
+            echo "No update performed."
+          fi
