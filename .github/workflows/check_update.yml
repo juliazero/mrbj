@@ -3,7 +3,7 @@ name: ReZygisk - update track.yaml
 # uruchom co 4h oraz ręcznie
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 23/6 * * *'
   workflow_dispatch:
 
 permissions:
