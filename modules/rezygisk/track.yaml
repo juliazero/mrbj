@@ -1,11 +1,11 @@
+categories:
+- Tools
+- Integrity Tools
+- WebUI
 enable: true
 id: rezygisk
-last_update: 1752459593.0
+last_update: 1761085673.0
 readme: https://raw.githubusercontent.com/PerformanC/ReZygisk/refs/heads/main/README.md
 source: https://github.com/PerformanC/ReZygisk
 update_to: https://github.com/PerformanC/ReZygisk/releases/download/v1.0.0-rc.4/ReZygisk-v1.0.0-rc.4-release.zip
-categories:
-  - "Tools"
-  - "Integrity Tools"
-  - "WebUI"
-versions: 1
+versions: 2
