@@ -1,0 +1,14 @@
+{
+  "id": "zygisk-detach",
+  "timestamp": 1748779842.0,
+  "versions": [
+    {
+      "timestamp": 1748779842.0,
+      "version": "v1.20.1",
+      "versionCode": 28,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.20.1_28.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.20.1_28.md",
+      "size": 178007
+    }
+  ]
+}

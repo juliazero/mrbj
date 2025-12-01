@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1764592443.030187
+    "timestamp": 1764604863.669535
   },
   "modules": [
     {
@@ -244,11 +244,13 @@
       "versionCode": 422,
       "author": "The PerformanC Organization",
       "description": "Standalone implementation of Zygisk.",
+      "minApi": 24,
       "categories": [
         "Tools",
         "Integrity Tools",
         "WebUI"
       ],
+      "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/PerformanC/ReZygisk/refs/heads/main/README.md",
       "verified": false,
       "added": 0,
@@ -345,6 +347,51 @@
       ]
     },
     {
+      "id": "zygisk-detach",
+      "name": "zygisk-detach",
+      "version": "v1.20.1",
+      "versionCode": 28,
+      "author": "j-hc",
+      "description": "Detaches installed apps from Play Store",
+      "minApi": 24,
+      "categories": [
+        "Tools"
+      ],
+      "license": "Apache-2.0",
+      "readme": "https://raw.githubusercontent.com/j-hc/zygisk-detach/refs/heads/master/README.md",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1748779842.0,
+      "size": 178007,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ZYGISK",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "post_fs_data": true,
+        "zygisk": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/j-hc/zygisk-detach",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/zygisk-detach/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1748779842.0,
+          "version": "v1.20.1",
+          "versionCode": 28,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.20.1_28.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.20.1_28.md",
+          "size": 178007
+        }
+      ]
+    },
+    {
       "id": "zygisk_lsposed",
       "name": "Zygisk - LSPosed",
       "version": "v1.10.2 (7182)",
@@ -405,10 +452,12 @@
       "versionCode": 266,
       "author": "JingMatrix",
       "description": "Zygote injection with ptrace.",
+      "minApi": 24,
       "categories": [
         "Tools",
         "Integrity Tools"
       ],
+      "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/README.md",
       "verified": false,
       "added": 0,
