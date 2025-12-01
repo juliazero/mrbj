@@ -1,0 +1,10 @@
+enable: true
+id: zygisk-detach
+license: Apache-2.0
+minApi: 24
+readme: https://raw.githubusercontent.com/j-hc/zygisk-detach/refs/heads/master/README.md
+source: https://github.com/j-hc/zygisk-detach
+update_to: https://raw.githubusercontent.com/j-hc/zygisk-detach/master/update.json
+verified: true
+categories:
+  - "Tools"
