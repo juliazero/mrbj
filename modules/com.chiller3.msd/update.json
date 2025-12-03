@@ -3,14 +3,6 @@
   "timestamp": 1756002765.0,
   "versions": [
     {
-      "timestamp": 1757733787.0,
-      "version": "v1.16",
-      "versionCode": 69632,
-      "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.16_69632.zip",
-      "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.16_69632.md",
-      "size": 3233730
-    },
-    {
       "timestamp": 1762043788.0,
       "version": "v1.17",
       "versionCode": 69888,
@@ -25,6 +17,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.18_70144.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.18_70144.md",
       "size": 3247990
+    },
+    {
+      "timestamp": 1764718596.0,
+      "version": "v1.19",
+      "versionCode": 70400,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.19_70400.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.19_70400.md",
+      "size": 3259774
     }
   ]
 }
