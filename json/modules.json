@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1765110520.762654
+    "timestamp": 1765131630.825392
   },
   "modules": [
     {
@@ -194,7 +194,9 @@
         "magisk.permission.POST_FS_DATA",
         "magisk.permission.ZYGISK",
         "magisk.permission.ACTION",
-        "kernelsu.permission.WEBUI"
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG",
+        "mmrl.permission.DEXS"
       ],
       "features": {
         "service": true,
@@ -313,7 +315,8 @@
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
-        "magisk.permission.SEPOLICY"
+        "magisk.permission.SEPOLICY",
+        "mmrl.permission.DEXS"
       ],
       "features": {
         "service": true,
@@ -416,7 +419,8 @@
         "magisk.permission.SEPOLICY",
         "magisk.permission.ACTION",
         "kernelsu.permission.WEBUI",
-        "mmrl.permission.APKS"
+        "mmrl.permission.APKS",
+        "mmrl.permission.DEXS"
       ],
       "features": {
         "service": true,
