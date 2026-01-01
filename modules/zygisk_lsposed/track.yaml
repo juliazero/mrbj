@@ -11,3 +11,7 @@ verified: true
 categories:
   - "Tools"
 versions: 1
+note:
+  color: "red"
+  title: "Important!"
+  message: "Use canary build for A16 QPR1 for now: https://nightly.link/JingMatrix/LSPosed/workflows/core/master"
