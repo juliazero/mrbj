@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1767248791.963782
+    "timestamp": 1767265749.545988
   },
   "modules": [
     {
@@ -409,6 +409,11 @@
       "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/README.md",
       "verified": true,
+      "note": {
+        "color": "red",
+        "title": "Important!",
+        "message": "Use canary build for A16 QPR1 for now: https://nightly.link/JingMatrix/LSPosed/workflows/core/master"
+      },
       "added": 0,
       "timestamp": 1752362984.0,
       "size": 6507377,
