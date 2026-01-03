@@ -1,0 +1,497 @@
+{
+  "id": "julgitrbj",
+  "name": "Modules Repo by Julia",
+  "website": "https://github.com/juliazero/mrbj",
+  "support": null,
+  "donate": "https://ko-fi.com/juliazero",
+  "submission": null,
+  "cover": "https://juliazero.github.io/mrbj/assets/cover.webp",
+  "description": "My small modules repo.",
+  "metadata": {
+    "version": 1,
+    "timestamp": 1767401257.856555
+  },
+  "modules": [
+    {
+      "id": "TA_utl",
+      "name": "Tricky Addon - Update Target List",
+      "version": "v4.3",
+      "versionCode": 635,
+      "author": "KOWX712",
+      "description": "A WebUI to conifgure tricky store target.txt ",
+      "added": 1723905223.0,
+      "categories": [
+        "Integrity Tools",
+        "WebUI"
+      ],
+      "verified": true,
+      "timestamp": 1762093319.0,
+      "size": 3120144,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1723905223.0,
+        "source": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/TA_utl/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1753440707.0,
+          "version": "v4.1",
+          "versionCode": 572,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.1_572.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.1_572.md",
+          "size": 4300641
+        },
+        {
+          "timestamp": 1761057007.0,
+          "version": "v4.2",
+          "versionCode": 618,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.2_618.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.2_618.md",
+          "size": 3117854
+        },
+        {
+          "timestamp": 1762093319.0,
+          "version": "v4.3",
+          "versionCode": 635,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.3_635.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.3_635.md",
+          "size": 3120144
+        }
+      ]
+    },
+    {
+      "id": "com.chiller3.msd",
+      "name": "MSD",
+      "version": "v1.20",
+      "versionCode": 70656,
+      "author": "chenxiaolong",
+      "description": "Emulate mass storage devices over USB",
+      "minApi": 30,
+      "categories": [
+        "Tools"
+      ],
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1764972297.0,
+      "size": 3898427,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/chenxiaolong/MSD",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1762307570.0,
+          "version": "v1.18",
+          "versionCode": 70144,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.18_70144.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.18_70144.md",
+          "size": 3247990
+        },
+        {
+          "timestamp": 1764718596.0,
+          "version": "v1.19",
+          "versionCode": 70400,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.19_70400.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.19_70400.md",
+          "size": 3259774
+        },
+        {
+          "timestamp": 1764972297.0,
+          "version": "v1.20",
+          "versionCode": 70656,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.20_70656.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.20_70656.md",
+          "size": 3898427
+        }
+      ]
+    },
+    {
+      "id": "iOS_Emoji",
+      "name": "iOS 18.4 Emoji font",
+      "version": "v18.4",
+      "versionCode": 18400,
+      "author": "Keinta15",
+      "description": "Systemlessly replaces emoji font with iOS 18.4 Emoji",
+      "categories": [
+        "Themes"
+      ],
+      "verified": true,
+      "added": 0,
+      "timestamp": 1745678577.0,
+      "size": 42415955,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/Keinta15/Magisk-iOS-Emoji",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1745678577.0,
+          "version": "v18.4",
+          "versionCode": 18400,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v18.4_18400.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v18.4_18400.md",
+          "size": 42415955
+        }
+      ]
+    },
+    {
+      "id": "playintegrityfix",
+      "name": "Play Integrity Fix [INJECT]",
+      "version": "v4.4-inject-s",
+      "versionCode": 44,
+      "author": "chiteroman, KOWX712",
+      "description": "Universal modular fix for Play Integrity on devices running Android 8-16",
+      "categories": [
+        "Integrity Tools",
+        "WebUI"
+      ],
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/KOWX712/PlayIntegrityFix/refs/heads/master/README.md",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1762093943.0,
+      "size": 598301,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ZYGISK",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "zygisk": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/KOWX712/PlayIntegrityFix",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/playintegrityfix/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1752336725.0,
+          "version": "v4.2-inject-s",
+          "versionCode": 42,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.2-inject-s_42.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.2-inject-s_42.md",
+          "size": 510952
+        },
+        {
+          "timestamp": 1756811549.0,
+          "version": "v4.3-inject-s",
+          "versionCode": 43,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.3-inject-s_43.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.3-inject-s_43.md",
+          "size": 512908
+        },
+        {
+          "timestamp": 1762093943.0,
+          "version": "v4.4-inject-s",
+          "versionCode": 44,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.4-inject-s_44.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.4-inject-s_44.md",
+          "size": 598301
+        }
+      ]
+    },
+    {
+      "id": "rezygisk",
+      "name": "ReZygisk",
+      "version": "v1.0.0-rc.4",
+      "versionCode": 422,
+      "author": "The PerformanC Organization",
+      "description": "Standalone implementation of Zygisk.",
+      "minApi": 24,
+      "categories": [
+        "Tools",
+        "Integrity Tools",
+        "WebUI"
+      ],
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/PerformanC/ReZygisk/refs/heads/main/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1761085673.0,
+      "size": 443582,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_ZIP",
+        "added": null,
+        "source": "https://github.com/PerformanC/ReZygisk",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/rezygisk/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1752459593.0,
+          "version": "v1.0.0-rc.3",
+          "versionCode": 390,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0-rc.3_390.zip",
+          "changelog": "",
+          "size": 436048
+        },
+        {
+          "timestamp": 1761085673.0,
+          "version": "v1.0.0-rc.4",
+          "versionCode": 422,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0-rc.4_422.zip",
+          "changelog": "",
+          "size": 443582
+        }
+      ]
+    },
+    {
+      "id": "tricky_store",
+      "name": "TEESimulator",
+      "version": "v3.0 (38-a171d8e-release)",
+      "versionCode": 38,
+      "author": "JingMatrix",
+      "description": "Software simulation for Android hardware-backed key pairs with key attestation",
+      "minApi": 29,
+      "categories": [
+        "Integrity Tools"
+      ],
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/JingMatrix/TEESimulator/refs/heads/main/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1765037189.0,
+      "size": 1659708,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.SEPOLICY",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "sepolicy": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/JingMatrix/TEESimulator",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/tricky_store/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1765037189.0,
+          "version": "v3.0 (38-a171d8e-release)",
+          "versionCode": 38,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.0_38-a171d8e-release.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.0_38-a171d8e-release.md",
+          "size": 1659708
+        }
+      ]
+    },
+    {
+      "id": "zygisk-detach",
+      "name": "zygisk-detach",
+      "version": "v1.20.1",
+      "versionCode": 28,
+      "author": "j-hc",
+      "description": "Detaches installed apps from Play Store",
+      "minApi": 24,
+      "categories": [
+        "Tools"
+      ],
+      "license": "Apache-2.0",
+      "readme": "https://raw.githubusercontent.com/j-hc/zygisk-detach/refs/heads/master/README.md",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1748779842.0,
+      "size": 178007,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ZYGISK",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "post_fs_data": true,
+        "zygisk": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/j-hc/zygisk-detach",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/zygisk-detach/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1748779842.0,
+          "version": "v1.20.1",
+          "versionCode": 28,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.20.1_28.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.20.1_28.md",
+          "size": 178007
+        }
+      ]
+    },
+    {
+      "id": "zygisk_lsposed",
+      "name": "Zygisk - LSPosed",
+      "version": "v1.10.2 (7182)",
+      "versionCode": 7182,
+      "author": "JingMatrix & LSPosed Developers",
+      "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 16. Requires Magisk 26.0+ and Zygisk enabled.",
+      "minApi": 27,
+      "categories": [
+        "Tools"
+      ],
+      "icon": "https://avatars.githubusercontent.com/u/75879071?s=200&v=4",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/README.md",
+      "verified": true,
+      "note": {
+        "color": "red",
+        "title": "Important!",
+        "message": "Use canary build for A16 QPR1 for now: https://nightly.link/JingMatrix/LSPosed/workflows/core/master"
+      },
+      "added": 0,
+      "timestamp": 1752362984.0,
+      "size": 6507377,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.APKS",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true,
+        "sepolicy": true,
+        "action": true,
+        "webroot": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/JingMatrix/LSPosed",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1752362984.0,
+          "version": "v1.10.2 (7182)",
+          "versionCode": 7182,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.2_7182.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.2_7182.md",
+          "size": 6507377
+        }
+      ]
+    },
+    {
+      "id": "zygisksu",
+      "name": "NeoZygisk",
+      "version": "v2.2 (266-559fc1d-release)",
+      "versionCode": 266,
+      "author": "JingMatrix",
+      "description": "Zygote injection with ptrace.",
+      "minApi": 24,
+      "categories": [
+        "Tools",
+        "Integrity Tools"
+      ],
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1757862999.0,
+      "size": 3285848,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/JingMatrix/NeoZygisk",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/zygisksu/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1757862999.0,
+          "version": "v2.2 (266-559fc1d-release)",
+          "versionCode": 266,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisksu/v2.2_266-559fc1d-release.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/zygisksu/v2.2_266-559fc1d-release.md",
+          "size": 3285848
+        }
+      ]
+    }
+  ]
+}
