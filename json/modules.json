@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1767378224.165014
+    "timestamp": 1767400737.986315
   },
   "modules": [
     {
@@ -307,7 +307,8 @@
       "categories": [
         "Integrity Tools"
       ],
-      "readme": "https://raw.githubusercontent.com/beakthoven/TrickyStoreOSS/refs/heads/master/README.md",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/JingMatrix/TEESimulator/refs/heads/main/README.md",
       "verified": false,
       "added": 0,
       "timestamp": 1754929127.0,
@@ -326,7 +327,7 @@
       "track": {
         "type": "ONLINE_JSON",
         "added": null,
-        "source": "https://github.com/beakthoven/TrickyStoreOSS",
+        "source": "https://github.com/JingMatrix/TEESimulator",
         "antifeatures": null,
         "build_metadata": "https://juliazero.github.io/mrbj/modules/tricky_store/track.yaml"
       },
