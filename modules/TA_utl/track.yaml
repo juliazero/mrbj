@@ -9,5 +9,8 @@ options:
   disableRemoteMetadata: true
 source: https://github.com/KOWX712/Tricky-Addon-Update-Target-List
 update_to: https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/update.json
+readme: https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md
+changelog: https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/changelog.md
+license: GPL-3.0
 verified: true
 versions: 3

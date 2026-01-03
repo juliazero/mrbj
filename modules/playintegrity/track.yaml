@@ -1,0 +1,9 @@
+categories:
+- Integrity Tools
+- WebUI
+enable: true
+id: playintegrity
+source: https://github.com/MeowDump/Integrity-Box
+update_to: https://raw.githubusercontent.com/MeowDump/MeowDump/refs/heads/main/playintegrity/release.json
+license: GPL-3.0
+readme: https://raw.githubusercontent.com/MeowDump/Integrity-Box/refs/heads/main/README.md
