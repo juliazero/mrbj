@@ -3,7 +3,9 @@ categories:
 - WebUI
 enable: true
 id: playintegrity
-source: https://github.com/MeowDump/Integrity-Box
-update_to: https://raw.githubusercontent.com/MeowDump/MeowDump/refs/heads/main/playintegrity/release.json
+last_update: 1766902891.0
 license: GPL-3.0
 readme: https://raw.githubusercontent.com/MeowDump/Integrity-Box/refs/heads/main/README.md
+source: https://github.com/MeowDump/Integrity-Box
+update_to: https://raw.githubusercontent.com/MeowDump/MeowDump/refs/heads/main/playintegrity/release.json
+versions: 1

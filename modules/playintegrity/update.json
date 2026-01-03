@@ -1,0 +1,14 @@
+{
+  "id": "playintegrity",
+  "timestamp": 1766902891.0,
+  "versions": [
+    {
+      "timestamp": 1766902891.0,
+      "version": "v27.1",
+      "versionCode": 27100,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrity/v27.1_27100.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/playintegrity/v27.1_27100.md",
+      "size": 98901
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1767401257.856555
+    "timestamp": 1767402417.378856
   },
   "modules": [
     {
@@ -24,6 +24,8 @@
         "Integrity Tools",
         "WebUI"
       ],
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
       "verified": true,
       "timestamp": 1762093319.0,
       "size": 3120144,
@@ -169,6 +171,57 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v18.4_18400.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v18.4_18400.md",
           "size": 42415955
+        }
+      ]
+    },
+    {
+      "id": "playintegrity",
+      "name": ".\ud835\ude44\ud835\ude63\ud835\ude69\ud835\ude5a\ud835\ude5c\ud835\ude67\ud835\ude5e\ud835\ude69\ud835\ude6e \ud835\ude3d\ud835\ude64\ud835\ude6d \ud83d\udce6",
+      "version": "v27.1",
+      "versionCode": 27100,
+      "author": "\ud835\udde0\ud835\uddd8\ud835\udde2\ud835\uddea\ud835\uddfb\ud835\uddee \ud83d\udc85 || tg@MeowDump",
+      "description": "Kindly Click on the action button ",
+      "categories": [
+        "Integrity Tools",
+        "WebUI"
+      ],
+      "support": "https://t.me/MeowDump",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/MeowDump/Integrity-Box/refs/heads/main/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1766902891.0,
+      "size": 98901,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/MeowDump/Integrity-Box",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/playintegrity/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1766902891.0,
+          "version": "v27.1",
+          "versionCode": 27100,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrity/v27.1_27100.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/playintegrity/v27.1_27100.md",
+          "size": 98901
         }
       ]
     },
