@@ -9,6 +9,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrity/v27.1_27100.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/playintegrity/v27.1_27100.md",
       "size": 98901
+    },
+    {
+      "timestamp": 1769680404.0,
+      "version": "v28",
+      "versionCode": 28000,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrity/v28_28000.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/playintegrity/v28_28000.md",
+      "size": 430653
     }
   ]
 }

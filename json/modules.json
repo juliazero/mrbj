@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1769668801.22586
+    "timestamp": 1769690725.572305
   },
   "modules": [
     {
@@ -177,33 +177,36 @@
     {
       "id": "playintegrity",
       "name": ".\ud835\ude44\ud835\ude63\ud835\ude69\ud835\ude5a\ud835\ude5c\ud835\ude67\ud835\ude5e\ud835\ude69\ud835\ude6e \ud835\ude3d\ud835\ude64\ud835\ude6d \ud83d\udce6",
-      "version": "v27.1",
-      "versionCode": 27100,
-      "author": "\ud835\udde0\ud835\uddd8\ud835\udde2\ud835\uddea\ud835\uddfb\ud835\uddee \ud83d\udc85 || tg@MeowDump",
-      "description": "Kindly Click on the action button ",
+      "version": "v28",
+      "versionCode": 28000,
+      "author": "\ud835\udde0\ud835\uddd8\ud835\udde2\ud835\uddea\ud835\uddfb\ud835\uddee \ud83d\udc85 & osm0sis",
+      "description": "Do not flash PIF module, you don't need it anymore. Everything will be managed by IntegrityBox from now",
       "categories": [
         "Integrity Tools",
         "WebUI"
       ],
+      "donate": "MeowDump.github.io",
       "support": "https://t.me/MeowDump",
       "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/MeowDump/Integrity-Box/refs/heads/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1766902891.0,
-      "size": 98901,
+      "timestamp": 1769680404.0,
+      "size": 430653,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
         "magisk.permission.RESETPROP",
+        "magisk.permission.ZYGISK",
         "magisk.permission.ACTION",
         "kernelsu.permission.WEBUI",
-        "mmrl.permission.WEBUI_CONFIG"
+        "mmrl.permission.DEXS"
       ],
       "features": {
         "service": true,
         "post_fs_data": true,
         "resetprop": true,
+        "zygisk": true,
         "action": true,
         "webroot": true
       },
@@ -222,6 +225,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrity/v27.1_27100.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/playintegrity/v27.1_27100.md",
           "size": 98901
+        },
+        {
+          "timestamp": 1769680404.0,
+          "version": "v28",
+          "versionCode": 28000,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrity/v28_28000.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/playintegrity/v28_28000.md",
+          "size": 430653
         }
       ]
     },
