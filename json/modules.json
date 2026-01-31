@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1769883884.763058
+    "timestamp": 1769902221.04478
   },
   "modules": [
     {
@@ -363,8 +363,8 @@
     {
       "id": "tricky_store",
       "name": "TEESimulator",
-      "version": "v3.0 (38-a171d8e-release)",
-      "versionCode": 38,
+      "version": "v3.1 (59-902b33a-release)",
+      "versionCode": 59,
       "author": "JingMatrix",
       "description": "Software simulation for Android hardware-backed key pairs with key attestation",
       "minApi": 29,
@@ -375,8 +375,8 @@
       "readme": "https://raw.githubusercontent.com/JingMatrix/TEESimulator/refs/heads/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1765037189.0,
-      "size": 1659708,
+      "timestamp": 1769896441.0,
+      "size": 1942370,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -401,6 +401,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.0_38-a171d8e-release.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.0_38-a171d8e-release.md",
           "size": 1659708
+        },
+        {
+          "timestamp": 1769896441.0,
+          "version": "v3.1 (59-902b33a-release)",
+          "versionCode": 59,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.1_59-902b33a-release.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.1_59-902b33a-release.md",
+          "size": 1942370
         }
       ]
     },
@@ -452,8 +460,8 @@
     {
       "id": "zygisk_lsposed",
       "name": "Zygisk - LSPosed",
-      "version": "v1.10.2 (7182)",
-      "versionCode": 7182,
+      "version": "v1.11.0 (7209)",
+      "versionCode": 7209,
       "author": "JingMatrix & LSPosed Developers",
       "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 16. Requires Magisk 26.0+ and Zygisk enabled.",
       "minApi": 27,
@@ -464,31 +472,22 @@
       "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/JingMatrix/LSPosed/refs/heads/master/README.md",
       "verified": true,
-      "note": {
-        "color": "red",
-        "title": "Important!",
-        "message": "Use canary build for A16 QPR1 for now: https://nightly.link/JingMatrix/LSPosed/workflows/core/master"
-      },
       "added": 0,
-      "timestamp": 1752362984.0,
-      "size": 6507377,
+      "timestamp": 1769900057.0,
+      "size": 6785684,
       "permissions": [
         "magisk.permission.SERVICE",
-        "magisk.permission.POST_FS_DATA",
         "magisk.permission.RESETPROP",
         "magisk.permission.SEPOLICY",
         "magisk.permission.ACTION",
-        "kernelsu.permission.WEBUI",
         "mmrl.permission.APKS",
         "mmrl.permission.DEXS"
       ],
       "features": {
         "service": true,
-        "post_fs_data": true,
         "resetprop": true,
         "sepolicy": true,
         "action": true,
-        "webroot": true,
         "apks": true
       },
       "track": {
@@ -506,6 +505,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.2_7182.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.2_7182.md",
           "size": 6507377
+        },
+        {
+          "timestamp": 1769900057.0,
+          "version": "v1.11.0 (7209)",
+          "versionCode": 7209,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.11.0_7209.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.11.0_7209.md",
+          "size": 6785684
         }
       ]
     },

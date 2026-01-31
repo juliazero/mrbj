@@ -9,6 +9,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.2_7182.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.10.2_7182.md",
       "size": 6507377
+    },
+    {
+      "timestamp": 1769900057.0,
+      "version": "v1.11.0 (7209)",
+      "versionCode": 7209,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.11.0_7209.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/zygisk_lsposed/v1.11.0_7209.md",
+      "size": 6785684
     }
   ]
 }

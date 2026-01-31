@@ -3,10 +3,10 @@ categories:
 changelog: https://raw.githubusercontent.com/JingMatrix/TEESimulator/refs/heads/main/module/changelog.md
 enable: true
 id: tricky_store
-last_update: 1765037189.0
+last_update: 1769896441.0
 license: GPL-3.0
 minApi: 29
 readme: https://raw.githubusercontent.com/JingMatrix/TEESimulator/refs/heads/main/README.md
 source: https://github.com/JingMatrix/TEESimulator
 update_to: https://raw.githubusercontent.com/JingMatrix/TEESimulator/refs/heads/main/module/update.json
-versions: 1
+versions: 2
