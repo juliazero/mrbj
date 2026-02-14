@@ -4,10 +4,10 @@ categories:
 changelog: https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/module/changelog.md
 enable: true
 id: zygisksu
+last_update: 1771031332.0
+license: GPL-3.0
 minApi: 24
-last_update: 1757862999.0
 readme: https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/README.md
 source: https://github.com/JingMatrix/NeoZygisk
 update_to: https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/module/zygisk.json
-license: GPL-3.0
-versions: 1
+versions: 2

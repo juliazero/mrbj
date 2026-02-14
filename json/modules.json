@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1771008002.517858
+    "timestamp": 1771033362.831976
   },
   "modules": [
     {
@@ -535,8 +535,8 @@
     {
       "id": "zygisksu",
       "name": "NeoZygisk",
-      "version": "v2.2 (266-559fc1d-release)",
-      "versionCode": 266,
+      "version": "v2.3 (275-671937c-release)",
+      "versionCode": 275,
       "author": "JingMatrix",
       "description": "Zygote injection with ptrace.",
       "minApi": 24,
@@ -548,8 +548,8 @@
       "readme": "https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1757862999.0,
-      "size": 3285848,
+      "timestamp": 1771031332.0,
+      "size": 3208704,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -577,6 +577,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisksu/v2.2_266-559fc1d-release.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/zygisksu/v2.2_266-559fc1d-release.md",
           "size": 3285848
+        },
+        {
+          "timestamp": 1771031332.0,
+          "version": "v2.3 (275-671937c-release)",
+          "versionCode": 275,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisksu/v2.3_275-671937c-release.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/zygisksu/v2.3_275-671937c-release.md",
+          "size": 3208704
         }
       ]
     }

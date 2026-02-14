@@ -9,6 +9,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisksu/v2.2_266-559fc1d-release.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/zygisksu/v2.2_266-559fc1d-release.md",
       "size": 3285848
+    },
+    {
+      "timestamp": 1771031332.0,
+      "version": "v2.3 (275-671937c-release)",
+      "versionCode": 275,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisksu/v2.3_275-671937c-release.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/zygisksu/v2.3_275-671937c-release.md",
+      "size": 3208704
     }
   ]
 }
