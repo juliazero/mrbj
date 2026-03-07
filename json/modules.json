@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1772865208.377311
+    "timestamp": 1772887003.907559
   },
   "modules": [
     {
@@ -363,8 +363,8 @@
     {
       "id": "tricky_store",
       "name": "TEESimulator",
-      "version": "v3.1 (59-902b33a-release)",
-      "versionCode": 59,
+      "version": "v3.2 (67-1f8412d-release)",
+      "versionCode": 67,
       "author": "JingMatrix",
       "description": "Software simulation for Android hardware-backed key pairs with key attestation",
       "minApi": 29,
@@ -375,8 +375,8 @@
       "readme": "https://raw.githubusercontent.com/JingMatrix/TEESimulator/refs/heads/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1769896441.0,
-      "size": 1942370,
+      "timestamp": 1772883630.0,
+      "size": 1883723,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -409,6 +409,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.1_59-902b33a-release.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.1_59-902b33a-release.md",
           "size": 1942370
+        },
+        {
+          "timestamp": 1772883630.0,
+          "version": "v3.2 (67-1f8412d-release)",
+          "versionCode": 67,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.2_67-1f8412d-release.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.2_67-1f8412d-release.md",
+          "size": 1883723
         }
       ]
     },
