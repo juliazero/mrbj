@@ -7,10 +7,10 @@ id: TA_utl
 last_update: 1762093319.0
 options:
   disableRemoteMetadata: true
-source: https://github.com/KOWX712/Tricky-Addon-Update-Target-List
-update_to: https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/update.json
-readme: https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md
-changelog: https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/changelog.md
+source: https://github.com/Enginex0/tricky-addon-enhanced
+update_to: https://raw.githubusercontent.com/Enginex0/tricky-addon-enhanced/refs/heads/main/update.json
+readme: https://raw.githubusercontent.com/Enginex0/tricky-addon-enhanced/refs/heads/main/README.md
+changelog: https://raw.githubusercontent.com/Enginex0/tricky-addon-enhanced/refs/heads/main/CHANGELOG.md
 license: GPL-3.0
 verified: true
 versions: 3
