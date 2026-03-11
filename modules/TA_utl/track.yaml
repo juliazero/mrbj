@@ -5,7 +5,7 @@ categories:
 changelog: https://raw.githubusercontent.com/Enginex0/tricky-addon-enhanced/refs/heads/main/CHANGELOG.md
 enable: true
 id: TA_utl
-last_update: 1773185746.0
+last_update: 1773231909.0
 license: GPL-3.0
 options:
   disableRemoteMetadata: true
