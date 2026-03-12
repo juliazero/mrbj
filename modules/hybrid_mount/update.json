@@ -1,0 +1,14 @@
+{
+  "id": "hybrid_mount",
+  "timestamp": 1772379581.0,
+  "versions": [
+    {
+      "timestamp": 1772379581.0,
+      "version": "3.1.5-1268",
+      "versionCode": 30105,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.1.5-1268_30105.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.1.5-1268_30105.md",
+      "size": 4040859
+    }
+  ]
+}
