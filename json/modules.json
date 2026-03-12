@@ -9,60 +9,46 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1773168018.547917
+    "timestamp": 1773341140.80282
   },
   "modules": [
     {
       "id": "TA_utl",
-      "name": "Tricky Addon - Update Target List",
-      "version": "v4.3",
-      "versionCode": 635,
-      "author": "KOWX712",
-      "description": "A WebUI to conifgure tricky store target.txt ",
+      "name": "Tricky Addon Enhanced",
+      "version": "v5.24.0",
+      "versionCode": 50026,
+      "author": "Enginex0",
+      "description": "Enhanced TrickyStore addon with dual-source keybox, auto security patch, conflict detection & sleek WebUI",
       "added": 1723905223.0,
       "categories": [
         "Integrity Tools",
         "WebUI"
       ],
       "license": "GPL-3.0",
-      "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
+      "readme": "https://raw.githubusercontent.com/Enginex0/tricky-addon-enhanced/refs/heads/main/README.md",
       "verified": true,
-      "timestamp": 1762093319.0,
-      "size": 3120144,
+      "timestamp": 1773231909.0,
+      "size": 9647608,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
-        "magisk.permission.ACTION"
+        "magisk.permission.ACTION",
+        "mmrl.permission.APKS"
       ],
       "features": {
         "service": true,
         "post_fs_data": true,
-        "action": true
+        "action": true,
+        "apks": true
       },
       "track": {
         "type": "ONLINE_JSON",
         "added": 1723905223.0,
-        "source": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
+        "source": "https://github.com/Enginex0/tricky-addon-enhanced",
         "antifeatures": null,
         "build_metadata": "https://juliazero.github.io/mrbj/modules/TA_utl/track.yaml"
       },
       "versions": [
-        {
-          "timestamp": 1753440707.0,
-          "version": "v4.1",
-          "versionCode": 572,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.1_572.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.1_572.md",
-          "size": 4300641
-        },
-        {
-          "timestamp": 1761057007.0,
-          "version": "v4.2",
-          "versionCode": 618,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.2_618.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.2_618.md",
-          "size": 3117854
-        },
         {
           "timestamp": 1762093319.0,
           "version": "v4.3",
@@ -70,6 +56,22 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.3_635.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.3_635.md",
           "size": 3120144
+        },
+        {
+          "timestamp": 1773185746.0,
+          "version": "v5.23.0",
+          "versionCode": 50025,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.23.0_50025.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.23.0_50025.md",
+          "size": 5681896
+        },
+        {
+          "timestamp": 1773231909.0,
+          "version": "v5.24.0",
+          "versionCode": 50026,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.24.0_50026.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.24.0_50026.md",
+          "size": 9647608
         }
       ]
     },
