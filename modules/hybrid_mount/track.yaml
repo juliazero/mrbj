@@ -1,0 +1,13 @@
+categories:
+- WebUI
+changelog: https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/master/changelog.md
+enable: true
+id: hybrid_mount
+license: GPL-3.0
+readme: https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/master/README.md
+source: https://github.com/Hybrid-Mount/meta-hybrid_mount
+update_to: https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/refs/heads/master/update.json
+verified: true
+manager:
+- apatch
+- kernelsu
