@@ -1,13 +1,11 @@
 categories:
 - WebUI
+- Tools
 changelog: https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/master/changelog.md
 enable: true
 id: hybrid_mount
 last_update: 1772379581.0
 license: GPL-3.0
-manager:
-- apatch
-- kernelsu
 readme: https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/master/README.md
 source: https://github.com/Hybrid-Mount/meta-hybrid_mount
 update_to: https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/refs/heads/master/update.json
