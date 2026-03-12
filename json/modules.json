@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1773341140.80282
+    "timestamp": 1773341420.904037
   },
   "modules": [
     {
@@ -365,45 +365,39 @@
     {
       "id": "tricky_store",
       "name": "TEESimulator",
-      "version": "v3.2 (67-1f8412d-release)",
-      "versionCode": 67,
-      "author": "JingMatrix",
+      "version": "v4.3 (107-ba9ac8c-release)",
+      "versionCode": 107,
+      "author": "JingMatrix, Enginex0",
       "description": "Software simulation for Android hardware-backed key pairs with key attestation",
       "minApi": 29,
       "categories": [
         "Integrity Tools"
       ],
       "license": "GPL-3.0",
-      "readme": "https://raw.githubusercontent.com/JingMatrix/TEESimulator/refs/heads/main/README.md",
+      "readme": "https://raw.githubusercontent.com/Enginex0/TEESimulator/refs/heads/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1772883630.0,
-      "size": 1883723,
+      "timestamp": 1773231397.0,
+      "size": 2718357,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
+        "magisk.permission.ACTION",
         "mmrl.permission.DEXS"
       ],
       "features": {
         "service": true,
-        "sepolicy": true
+        "sepolicy": true,
+        "action": true
       },
       "track": {
         "type": "ONLINE_JSON",
         "added": null,
-        "source": "https://github.com/JingMatrix/TEESimulator",
+        "source": "https://github.com/Enginex0/TEESimulator",
         "antifeatures": null,
         "build_metadata": "https://juliazero.github.io/mrbj/modules/tricky_store/track.yaml"
       },
       "versions": [
-        {
-          "timestamp": 1765037189.0,
-          "version": "v3.0 (38-a171d8e-release)",
-          "versionCode": 38,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.0_38-a171d8e-release.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.0_38-a171d8e-release.md",
-          "size": 1659708
-        },
         {
           "timestamp": 1769896441.0,
           "version": "v3.1 (59-902b33a-release)",
@@ -419,6 +413,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.2_67-1f8412d-release.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.2_67-1f8412d-release.md",
           "size": 1883723
+        },
+        {
+          "timestamp": 1773231397.0,
+          "version": "v4.3 (107-ba9ac8c-release)",
+          "versionCode": 107,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v4.3_107-ba9ac8c-release.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v4.3_107-ba9ac8c-release.md",
+          "size": 2718357
         }
       ]
     },

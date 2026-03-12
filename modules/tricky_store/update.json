@@ -3,14 +3,6 @@
   "timestamp": 1765037189.0,
   "versions": [
     {
-      "timestamp": 1765037189.0,
-      "version": "v3.0 (38-a171d8e-release)",
-      "versionCode": 38,
-      "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.0_38-a171d8e-release.zip",
-      "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.0_38-a171d8e-release.md",
-      "size": 1659708
-    },
-    {
       "timestamp": 1769896441.0,
       "version": "v3.1 (59-902b33a-release)",
       "versionCode": 59,
@@ -25,6 +17,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.2_67-1f8412d-release.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.2_67-1f8412d-release.md",
       "size": 1883723
+    },
+    {
+      "timestamp": 1773231397.0,
+      "version": "v4.3 (107-ba9ac8c-release)",
+      "versionCode": 107,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v4.3_107-ba9ac8c-release.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v4.3_107-ba9ac8c-release.md",
+      "size": 2718357
     }
   ]
 }
