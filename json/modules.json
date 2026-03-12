@@ -145,15 +145,12 @@
       "description": "Waiting for daemon...",
       "metamodule": "1",
       "categories": [
-        "WebUI"
+        "WebUI",
+        "Tools"
       ],
       "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/master/README.md",
-      "verified": true,
-      "manager": [
-        "apatch",
-        "kernelsu"
-      ],
+      "verified": true
       "added": 0,
       "timestamp": 1772379581.0,
       "size": 4040859,
