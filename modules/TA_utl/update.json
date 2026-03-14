@@ -3,14 +3,6 @@
   "timestamp": 1753440707.0,
   "versions": [
     {
-      "timestamp": 1762093319.0,
-      "version": "v4.3",
-      "versionCode": 635,
-      "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.3_635.zip",
-      "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v4.3_635.md",
-      "size": 3120144
-    },
-    {
       "timestamp": 1773185746.0,
       "version": "v5.23.0",
       "versionCode": 50025,
@@ -25,6 +17,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.24.0_50026.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.24.0_50026.md",
       "size": 9647608
+    },
+    {
+      "timestamp": 1773499289.0,
+      "version": "v5.25.0",
+      "versionCode": 50027,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.25.0_50027.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.25.0_50027.md",
+      "size": 9647233
     }
   ]
 }
