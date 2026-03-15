@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1773539828.843952
+    "timestamp": 1773557420.84961
   },
   "modules": [
     {
@@ -139,8 +139,8 @@
     {
       "id": "hybrid_mount",
       "name": "Hybrid Mount",
-      "version": "3.1.5-1268",
-      "versionCode": 30105,
+      "version": "3.1.6-1305",
+      "versionCode": 30106,
       "author": "Hybrid Mount Developers",
       "description": "Waiting for daemon...",
       "metamodule": "1",
@@ -152,8 +152,8 @@
       "readme": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/master/README.md",
       "verified": true,
       "added": 0,
-      "timestamp": 1772379581.0,
-      "size": 4040859,
+      "timestamp": 1773540222.0,
+      "size": 4085895,
       "permissions": [
         "kernelsu.permission.WEBUI"
       ],
@@ -175,6 +175,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.1.5-1268_30105.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.1.5-1268_30105.md",
           "size": 4040859
+        },
+        {
+          "timestamp": 1773540222.0,
+          "version": "3.1.6-1305",
+          "versionCode": 30106,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.1.6-1305_30106.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.1.6-1305_30106.md",
+          "size": 4085895
         }
       ]
     },

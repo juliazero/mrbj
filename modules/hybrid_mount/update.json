@@ -9,6 +9,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.1.5-1268_30105.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.1.5-1268_30105.md",
       "size": 4040859
+    },
+    {
+      "timestamp": 1773540222.0,
+      "version": "3.1.6-1305",
+      "versionCode": 30106,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.1.6-1305_30106.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.1.6-1305_30106.md",
+      "size": 4085895
     }
   ]
 }
