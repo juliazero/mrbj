@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1773687311.881386
+    "timestamp": 1773711982.97073
   },
   "modules": [
     {
@@ -358,8 +358,8 @@
     {
       "id": "rezygisk",
       "name": "ReZygisk",
-      "version": "v1.0.0-rc.4",
-      "versionCode": 422,
+      "version": "v1.0.0-rc.5",
+      "versionCode": 458,
       "author": "The PerformanC Organization",
       "description": "Standalone implementation of Zygisk.",
       "minApi": 24,
@@ -372,8 +372,8 @@
       "readme": "https://raw.githubusercontent.com/PerformanC/ReZygisk/refs/heads/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1761085673.0,
-      "size": 443582,
+      "timestamp": 1773645478.0,
+      "size": 482526,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -409,14 +409,22 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0-rc.4_422.zip",
           "changelog": "",
           "size": 443582
+        },
+        {
+          "timestamp": 1773645478.0,
+          "version": "v1.0.0-rc.5",
+          "versionCode": 458,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0-rc.5_458.zip",
+          "changelog": "",
+          "size": 482526
         }
       ]
     },
     {
       "id": "tricky_store",
       "name": "TEESimulator",
-      "version": "v4.4 (109-eed099a-release)",
-      "versionCode": 109,
+      "version": "v4.5 (113-075846c-release)",
+      "versionCode": 113,
       "author": "JingMatrix, Enginex0",
       "description": "Software simulation for Android hardware-backed key pairs with key attestation",
       "minApi": 29,
@@ -427,8 +435,8 @@
       "readme": "https://raw.githubusercontent.com/Enginex0/TEESimulator/refs/heads/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1773666551.0,
-      "size": 2718569,
+      "timestamp": 1773697235.0,
+      "size": 2719476,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -449,14 +457,6 @@
       },
       "versions": [
         {
-          "timestamp": 1772883630.0,
-          "version": "v3.2 (67-1f8412d-release)",
-          "versionCode": 67,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.2_67-1f8412d-release.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v3.2_67-1f8412d-release.md",
-          "size": 1883723
-        },
-        {
           "timestamp": 1773231397.0,
           "version": "v4.3 (107-ba9ac8c-release)",
           "versionCode": 107,
@@ -471,6 +471,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v4.4_109-eed099a-release.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v4.4_109-eed099a-release.md",
           "size": 2718569
+        },
+        {
+          "timestamp": 1773697235.0,
+          "version": "v4.5 (113-075846c-release)",
+          "versionCode": 113,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v4.5_113-075846c-release.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v4.5_113-075846c-release.md",
+          "size": 2719476
         }
       ]
     },

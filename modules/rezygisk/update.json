@@ -17,6 +17,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0-rc.4_422.zip",
       "changelog": "",
       "size": 443582
+    },
+    {
+      "timestamp": 1773645478.0,
+      "version": "v1.0.0-rc.5",
+      "versionCode": 458,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0-rc.5_458.zip",
+      "changelog": "",
+      "size": 482526
     }
   ]
 }
