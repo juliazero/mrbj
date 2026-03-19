@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1773924838.808743
+    "timestamp": 1773946266.799197
   },
   "modules": [
     {
@@ -432,7 +432,7 @@
         "Integrity Tools"
       ],
       "license": "GPL-3.0",
-      "readme": "https://raw.githubusercontent.com/Enginex0/TEESimulator/refs/heads/main/README.md",
+      "readme": "https://raw.githubusercontent.com/Enginex0/TEESimulator-RS/main/README.md",
       "verified": false,
       "added": 0,
       "timestamp": 1773697235.0,
@@ -451,7 +451,7 @@
       "track": {
         "type": "ONLINE_JSON",
         "added": null,
-        "source": "https://github.com/Enginex0/TEESimulator",
+        "source": "https://github.com/Enginex0/TEESimulator-RS",
         "antifeatures": null,
         "build_metadata": "https://juliazero.github.io/mrbj/modules/tricky_store/track.yaml"
       },
