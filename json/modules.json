@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1774204195.199964
+    "timestamp": 1774230713.541062
   },
   "modules": [
     {
@@ -433,8 +433,8 @@
     {
       "id": "tricky_store",
       "name": "TEESimulator-RS",
-      "version": "v5.1-153",
-      "versionCode": 153,
+      "version": "v5.1.1-164",
+      "versionCode": 164,
       "author": "JingMatrix, Enginex0",
       "description": "Software simulation for Android hardware-backed key pairs with key attestation",
       "minApi": 29,
@@ -445,8 +445,8 @@
       "readme": "https://raw.githubusercontent.com/Enginex0/TEESimulator-RS/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1774102246.0,
-      "size": 2733435,
+      "timestamp": 1774140889.0,
+      "size": 2739101,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -467,14 +467,6 @@
       },
       "versions": [
         {
-          "timestamp": 1773666551.0,
-          "version": "v4.4 (109-eed099a-release)",
-          "versionCode": 109,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v4.4_109-eed099a-release.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v4.4_109-eed099a-release.md",
-          "size": 2718569
-        },
-        {
           "timestamp": 1773697235.0,
           "version": "v4.5 (113-075846c-release)",
           "versionCode": 113,
@@ -489,6 +481,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v5.1-153_153.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v5.1-153_153.md",
           "size": 2733435
+        },
+        {
+          "timestamp": 1774140889.0,
+          "version": "v5.1.1-164",
+          "versionCode": 164,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v5.1.1-164_164.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v5.1.1-164_164.md",
+          "size": 2739101
         }
       ]
     },
