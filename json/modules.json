@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1774357250.67636
+    "timestamp": 1774378576.088199
   },
   "modules": [
     {
@@ -139,8 +139,8 @@
     {
       "id": "hybrid_mount",
       "name": "Hybrid Mount",
-      "version": "3.2.1-1334",
-      "versionCode": 30201,
+      "version": "3.2.2-1342",
+      "versionCode": 30202,
       "author": "Hybrid Mount Developers",
       "description": "Waiting for daemon...",
       "metamodule": "1",
@@ -152,8 +152,8 @@
       "readme": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/master/README.md",
       "verified": true,
       "added": 0,
-      "timestamp": 1774187055.0,
-      "size": 3361287,
+      "timestamp": 1774360872.0,
+      "size": 3381703,
       "permissions": [
         "magisk.permission.SEPOLICY",
         "kernelsu.permission.WEBUI"
@@ -171,14 +171,6 @@
       },
       "versions": [
         {
-          "timestamp": 1772379581.0,
-          "version": "3.1.5-1268",
-          "versionCode": 30105,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.1.5-1268_30105.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.1.5-1268_30105.md",
-          "size": 4040859
-        },
-        {
           "timestamp": 1773540222.0,
           "version": "3.1.6-1305",
           "versionCode": 30106,
@@ -193,6 +185,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.2.1-1334_30201.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.2.1-1334_30201.md",
           "size": 3361287
+        },
+        {
+          "timestamp": 1774360872.0,
+          "version": "3.2.2-1342",
+          "versionCode": 30202,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.2.2-1342_30202.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.2.2-1342_30202.md",
+          "size": 3381703
         }
       ]
     },
