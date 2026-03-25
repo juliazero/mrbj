@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1774443496.286081
+    "timestamp": 1774464609.802371
   },
   "modules": [
     {
@@ -199,8 +199,8 @@
     {
       "id": "iOS_Emoji",
       "name": "iOS 18.4 Emoji font",
-      "version": "v18.4",
-      "versionCode": 18400,
+      "version": "v18.4.1",
+      "versionCode": 18401,
       "author": "Keinta15",
       "description": "Systemlessly replaces emoji font with iOS 18.4 Emoji",
       "categories": [
@@ -208,8 +208,8 @@
       ],
       "verified": true,
       "added": 0,
-      "timestamp": 1745678577.0,
-      "size": 42415955,
+      "timestamp": 1774459589.0,
+      "size": 42416591,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION"
@@ -233,6 +233,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v18.4_18400.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v18.4_18400.md",
           "size": 42415955
+        },
+        {
+          "timestamp": 1774459589.0,
+          "version": "v18.4.1",
+          "versionCode": 18401,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v18.4.1_18401.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/iOS_Emoji/v18.4.1_18401.md",
+          "size": 42416591
         }
       ]
     },
