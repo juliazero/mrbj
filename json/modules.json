@@ -439,67 +439,6 @@
       ]
     },
     {
-      "id": "tricky_store",
-      "name": "TEESimulator-RS",
-      "version": "v5.1.1-164",
-      "versionCode": 164,
-      "author": "JingMatrix, Enginex0",
-      "description": "Software simulation for Android hardware-backed key pairs with key attestation",
-      "minApi": 29,
-      "categories": [
-        "Integrity Tools"
-      ],
-      "license": "GPL-3.0",
-      "readme": "https://raw.githubusercontent.com/Enginex0/TEESimulator-RS/main/README.md",
-      "verified": false,
-      "added": 0,
-      "size": 2739101,
-      "permissions": [
-        "magisk.permission.SERVICE",
-        "magisk.permission.SEPOLICY",
-        "magisk.permission.ACTION",
-        "mmrl.permission.DEXS"
-      ],
-      "features": {
-        "service": true,
-        "sepolicy": true,
-        "action": true
-      },
-      "track": {
-        "type": "ONLINE_ZIP",
-        "added": null,
-        "source": "https://github.com/Enginex0/TEESimulator-RS",
-        "antifeatures": null,
-        "build_metadata": "https://juliazero.github.io/mrbj/modules/tricky_store/track.yaml"
-      },
-      "versions": [
-        {
-          "timestamp": 1773697235.0,
-          "version": "v4.5 (113-075846c-release)",
-          "versionCode": 113,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v4.5_113-075846c-release.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v4.5_113-075846c-release.md",
-          "size": 2719476
-        },
-        {
-          "timestamp": 1774102246.0,
-          "version": "v5.1-153",
-          "versionCode": 153,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v5.1-153_153.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v5.1-153_153.md",
-          "size": 2733435
-        },
-        {
-          "timestamp": 1774140889.0,
-          "version": "v5.1.1-164",
-          "versionCode": 164,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v5.1.1-164_164.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v5.1.1-164_164.md",
-          "size": 2739101
-        }
-      ]
-    },
-    {
       "id": "zygisk-detach",
       "name": "zygisk-detach",
       "version": "v1.22.0",

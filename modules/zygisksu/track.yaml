@@ -1,6 +1,5 @@
 categories:
 - Tools
-- Integrity Tools
 changelog: https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/module/changelog.md
 enable: true
 id: zygisksu
