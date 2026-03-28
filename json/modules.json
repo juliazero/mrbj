@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1774722781.945621
+    "timestamp": 1774733054.484982
   },
   "modules": [
     {
@@ -383,7 +383,6 @@
       "minApi": 24,
       "categories": [
         "Tools",
-        "Integrity Tools",
         "WebUI"
       ],
       "license": "GPL-3.0",
@@ -435,6 +434,52 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0-rc.6-release_467.zip",
           "changelog": "",
           "size": 484886
+        }
+      ]
+    },
+    {
+      "id": "tricky_store",
+      "name": "TEESimulator-RS",
+      "version": "v6.0.0-156",
+      "versionCode": 156,
+      "author": "JingMatrix, Enginex0",
+      "description": "Software simulation for Android hardware-backed key pairs with key attestation",
+      "minApi": 29,
+      "categories": [
+        "Integrity Tools"
+      ],
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Enginex0/TEESimulator-RS/main/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1774525133.0,
+      "size": 2740417,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ACTION",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "sepolicy": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_ZIP",
+        "added": null,
+        "source": "https://github.com/Enginex0/TEESimulator-RS",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/tricky_store/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1774525133.0,
+          "version": "v6.0.0-156",
+          "versionCode": 156,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.0-156_156.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.0-156_156.md",
+          "size": 2740417
         }
       ]
     },
@@ -567,8 +612,7 @@
       "description": "Zygote injection with ptrace.",
       "minApi": 24,
       "categories": [
-        "Tools",
-        "Integrity Tools"
+        "Tools"
       ],
       "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/JingMatrix/NeoZygisk/master/README.md",

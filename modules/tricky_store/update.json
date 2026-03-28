@@ -1,0 +1,14 @@
+{
+  "id": "tricky_store",
+  "timestamp": 1774525133.0,
+  "versions": [
+    {
+      "timestamp": 1774525133.0,
+      "version": "v6.0.0-156",
+      "versionCode": 156,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.0-156_156.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.0-156_156.md",
+      "size": 2740417
+    }
+  ]
+}
