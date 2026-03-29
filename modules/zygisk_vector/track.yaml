@@ -1,0 +1,13 @@
+categories:
+- Tools
+enable: true
+icon: https://avatars.githubusercontent.com/u/75879071?s=200&v=4
+id: zygisk_vector
+license: GPL-3.0
+minApi: 27
+readme: https://raw.githubusercontent.com/JingMatrix/Vector/refs/heads/master/README.md
+source: https://github.com/JingMatrix/Vector
+changelog:
+https://github.com/JingMatrix/Vector/raw/refs/heads/master/magisk-loader/update/changelog.md
+update_to: https://raw.githubusercontent.com/JingMatrix/Vector/refs/heads/master/magisk-loader/update/zygisk.json
+verified: true
