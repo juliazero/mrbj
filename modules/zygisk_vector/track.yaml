@@ -8,5 +8,5 @@ minApi: 27
 readme: https://raw.githubusercontent.com/JingMatrix/Vector/master/README.md
 source: https://github.com/JingMatrix/Vector
 changelog: https://raw.githubusercontent.com/JingMatrix/Vector/master/magisk-loader/update/changelog.md
-update_to: https://raw.githubusercontent.com/JingMatrix/Vector/master/magisk-loader/update/zygisk.json
+update_to: https://github.com/JingMatrix/Vector/releases/download/v2.0/Vector-v2.0-3021-Release.zip
 verified: true
