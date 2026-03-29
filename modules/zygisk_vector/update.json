@@ -1,0 +1,14 @@
+{
+  "id": "zygisk_vector",
+  "timestamp": 1774207705.0,
+  "versions": [
+    {
+      "timestamp": 1774207705.0,
+      "version": "v2.0 (3021)",
+      "versionCode": 3021,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_vector/v2.0_3021.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/zygisk_vector/v2.0_3021.md",
+      "size": 8434264
+    }
+  ]
+}

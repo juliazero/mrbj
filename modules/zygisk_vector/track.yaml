@@ -1,12 +1,14 @@
 categories:
 - Tools
+changelog: https://raw.githubusercontent.com/JingMatrix/Vector/master/magisk-loader/update/changelog.md
 enable: true
 icon: https://avatars.githubusercontent.com/u/75879071?s=200&v=4
 id: zygisk_vector
+last_update: 1774207705.0
 license: GPL-3.0
 minApi: 27
 readme: https://raw.githubusercontent.com/JingMatrix/Vector/master/README.md
 source: https://github.com/JingMatrix/Vector
-changelog: https://raw.githubusercontent.com/JingMatrix/Vector/master/magisk-loader/update/changelog.md
 update_to: https://github.com/JingMatrix/Vector/releases/download/v2.0/Vector-v2.0-3021-Release.zip
 verified: true
+versions: 1

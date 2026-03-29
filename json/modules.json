@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1774777566.245207
+    "timestamp": 1774778787.236535
   },
   "modules": [
     {
@@ -541,6 +541,57 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.22.0_31.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.22.0_31.md",
           "size": 369895
+        }
+      ]
+    },
+    {
+      "id": "zygisk_vector",
+      "name": "Vector",
+      "version": "v2.0 (3021)",
+      "versionCode": 3021,
+      "author": "JingMatrix",
+      "description": "A modern, Xposed-compatible framework for Android application hooking. (Android 8.1 ~ 16)",
+      "minApi": 27,
+      "categories": [
+        "Tools"
+      ],
+      "icon": "https://avatars.githubusercontent.com/u/75879071?s=200&v=4",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/JingMatrix/Vector/master/README.md",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1774207705.0,
+      "size": 8434264,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.RESETPROP",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ACTION",
+        "mmrl.permission.APKS",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "resetprop": true,
+        "sepolicy": true,
+        "action": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_ZIP",
+        "added": null,
+        "source": "https://github.com/JingMatrix/Vector",
+        "antifeatures": null,
+        "build_metadata": "https://juliazero.github.io/mrbj/modules/zygisk_vector/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1774207705.0,
+          "version": "v2.0 (3021)",
+          "versionCode": 3021,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_vector/v2.0_3021.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/zygisk_vector/v2.0_3021.md",
+          "size": 8434264
         }
       ]
     },
