@@ -7,8 +7,8 @@ targets:
   - owner: PerformanC
     repo: ReZygisk
     asset_pattern: "-release.zip"
-    file: modules/other_module/track.yaml
+    file: modules/rezygisk/track.yaml
   - owner: JingMatrix
     repo: Vector
     asset_pattern: "-Release.zip"
-    file: modules/other_module/track.yaml
+    file: modules/zygisk_vector/track.yaml
