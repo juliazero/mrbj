@@ -1,0 +1,97 @@
+name: Update tracks that use zip
+
+on:
+  schedule:
+    - cron: '0 23/6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check_and_update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install yq (YAML parser)
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Process all targets
+        run: |
+          set -euo pipefail
+
+          count=$(yq '.targets | length' track-list.yaml)
+
+          for ((i=0; i<count; i++)); do
+            owner=$(yq -r ".targets[$i].owner" track-list.yaml)
+            repo=$(yq -r ".targets[$i].repo" track-list.yaml)
+            pattern=$(yq -r ".targets[$i].asset_pattern" track-list.yaml)
+            file=$(yq -r ".targets[$i].file" track-list.yaml)
+
+            echo "Processing $owner/$repo ($pattern) -> $file"
+
+            if [ ! -f "$file" ]; then
+              echo "Skipping: $file not found"
+              continue
+            fi
+
+            # Pobierz latest release JSON
+            json=$(curl -s https://api.github.com/repos/$owner/$repo/releases/latest)
+
+            # znajdź asset po patternie
+            url=$(echo "$json" | jq -r --arg p "$pattern" '
+              .assets[]
+              | select(.name | endswith($p))
+              | .browser_download_url
+            ' | head -n1)
+
+            name=$(echo "$json" | jq -r --arg p "$pattern" '
+              .assets[]
+              | select(.name | endswith($p))
+              | .name
+            ' | head -n1)
+
+            if [ -z "$url" ] || [ "$url" = "null" ]; then
+              echo "No matching asset found"
+              continue
+            fi
+
+            echo "Found: $name"
+
+            if grep -Fq "$url" "$file"; then
+              echo "No change needed"
+              continue
+            fi
+
+            tmp="$(mktemp)"
+            awk -v url="$url" '
+              BEGIN { replaced=0 }
+              /^update_to:[[:space:]]*/ {
+                print "update_to: " url
+                replaced=1
+                next
+              }
+              { print }
+              END {
+                if(!replaced) {
+                  print ""
+                  print "update_to: " url
+                }
+              }
+            ' "$file" > "$tmp"
+
+            mv "$tmp" "$file"
+
+            git add "$file"
+          done
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git commit -m "chore: bulk update track.yaml files" || echo "Nothing to commit"
+          git push || true

@@ -1,0 +1,14 @@
+targets:
+  - owner: Enginex0
+    repo: TEESimulator-RS
+    asset_pattern: "-Release.zip"
+    file: modules/tricky_store/track.yaml
+
+  - owner: PerformanC
+    repo: ReZygisk
+    asset_pattern: "-release.zip"
+    file: modules/other_module/track.yaml
+  - owner: JingMatrix
+    repo: Vector
+    asset_pattern: "-Release.zip"
+    file: modules/other_module/track.yaml
