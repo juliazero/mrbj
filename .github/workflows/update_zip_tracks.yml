@@ -25,13 +25,13 @@ jobs:
         run: |
           set -euo pipefail
 
-          count=$(yq '.targets | length' track-list.yaml)
+          count=$(yq '.targets | length' zip_track_targets.yaml)
 
           for ((i=0; i<count; i++)); do
-            owner=$(yq -r ".targets[$i].owner" track-list.yaml)
-            repo=$(yq -r ".targets[$i].repo" track-list.yaml)
-            pattern=$(yq -r ".targets[$i].asset_pattern" track-list.yaml)
-            file=$(yq -r ".targets[$i].file" track-list.yaml)
+            owner=$(yq -r ".targets[$i].owner" zip_track_targets.yaml)
+            repo=$(yq -r ".targets[$i].repo" zip_track_targets.yaml)
+            pattern=$(yq -r ".targets[$i].asset_pattern" zip_track_targets.yaml)
+            file=$(yq -r ".targets[$i].file" zip_track_targets.yaml)
 
             echo "Processing $owner/$repo ($pattern) -> $file"
 
