@@ -9,6 +9,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.0-156_156.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.0-156_156.md",
       "size": 2740417
+    },
+    {
+      "timestamp": 1774982868.0,
+      "version": "v6.0.0-162",
+      "versionCode": 162,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.0-162_162.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.0-162_162.md",
+      "size": 2741432
     }
   ]
 }

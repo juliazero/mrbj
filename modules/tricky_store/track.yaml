@@ -3,10 +3,10 @@ categories:
 changelog: https://raw.githubusercontent.com/Enginex0/TEESimulator-RS/main/module/changelog.md
 enable: true
 id: tricky_store
-last_update: 1774525133.0
+last_update: 1774982868.0
 license: GPL-3.0
 minApi: 29
 readme: https://raw.githubusercontent.com/Enginex0/TEESimulator-RS/main/README.md
 source: https://github.com/Enginex0/TEESimulator-RS
 update_to: https://github.com/Enginex0/TEESimulator-RS/releases/download/v6.0.0-162/TEESimulator-RS-v6.0.0-162-Release.zip
-versions: 1
+versions: 2
