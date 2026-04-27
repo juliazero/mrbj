@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1777228997.316158
+    "timestamp": 1777256621.87656
   },
   "modules": [
     {
@@ -376,8 +376,8 @@
     {
       "id": "rezygisk",
       "name": "ReZygisk",
-      "version": "v1.0.0-rc.7-release",
-      "versionCode": 476,
+      "version": "v1.0.0 (505-7e3db00-release)",
+      "versionCode": 505,
       "author": "The PerformanC Organization",
       "description": "Standalone implementation of Zygisk.",
       "minApi": 24,
@@ -389,8 +389,8 @@
       "readme": "https://raw.githubusercontent.com/PerformanC/ReZygisk/refs/heads/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1775014043.0,
-      "size": 489640,
+      "timestamp": 1777180351.0,
+      "size": 518064,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -412,14 +412,6 @@
       },
       "versions": [
         {
-          "timestamp": 1773645478.0,
-          "version": "v1.0.0-rc.5",
-          "versionCode": 458,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0-rc.5_458.zip",
-          "changelog": "",
-          "size": 482526
-        },
-        {
           "timestamp": 1774378658.0,
           "version": "v1.0.0-rc.6-release",
           "versionCode": 467,
@@ -434,6 +426,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0-rc.7-release_476.zip",
           "changelog": "",
           "size": 489640
+        },
+        {
+          "timestamp": 1777180351.0,
+          "version": "v1.0.0 (505-7e3db00-release)",
+          "versionCode": 505,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0_505-7e3db00-release.zip",
+          "changelog": "",
+          "size": 518064
         }
       ]
     },
