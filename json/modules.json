@@ -9,14 +9,14 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1777640964.155185
+    "timestamp": 1777662289.796701
   },
   "modules": [
     {
       "id": "TA_utl",
       "name": "Tricky Addon Enhanced",
-      "version": "v5.47.0",
-      "versionCode": 50050,
+      "version": "v5.53.1",
+      "versionCode": 50058,
       "author": "Enginex0",
       "description": "Enhanced TrickyStore addon with dual-source keybox, auto security patch, conflict detection & sleek WebUI",
       "added": 1723905223.0,
@@ -27,8 +27,8 @@
       "license": "GPL-3.0",
       "readme": "https://raw.githubusercontent.com/Enginex0/tricky-addon-enhanced/refs/heads/main/README.md",
       "verified": true,
-      "timestamp": 1777573762.0,
-      "size": 10235476,
+      "timestamp": 1777653181.0,
+      "size": 11346217,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -50,14 +50,6 @@
       },
       "versions": [
         {
-          "timestamp": 1773768260.0,
-          "version": "v5.26.0",
-          "versionCode": 50028,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.26.0_50028.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.26.0_50028.md",
-          "size": 9647291
-        },
-        {
           "timestamp": 1773858091.0,
           "version": "v5.27.0",
           "versionCode": 50029,
@@ -72,6 +64,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.47.0_50050.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.47.0_50050.md",
           "size": 10235476
+        },
+        {
+          "timestamp": 1777653181.0,
+          "version": "v5.53.1",
+          "versionCode": 50058,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.53.1_50058.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/TA_utl/v5.53.1_50058.md",
+          "size": 11346217
         }
       ]
     },
