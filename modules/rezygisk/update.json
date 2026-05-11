@@ -3,14 +3,6 @@
   "timestamp": 1752459593.0,
   "versions": [
     {
-      "timestamp": 1775014043.0,
-      "version": "v1.0.0-rc.7-release",
-      "versionCode": 476,
-      "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0-rc.7-release_476.zip",
-      "changelog": "",
-      "size": 489640
-    },
-    {
       "timestamp": 1777180351.0,
       "version": "v1.0.0 (505-7e3db00-release)",
       "versionCode": 505,
@@ -25,6 +17,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0_513-faccedf-release.zip",
       "changelog": "",
       "size": 503427
+    },
+    {
+      "timestamp": 1778449348.0,
+      "version": "v1.0.0 (515-333d423-release)",
+      "versionCode": 515,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/rezygisk/v1.0.0_515-333d423-release.zip",
+      "changelog": "",
+      "size": 506334
     }
   ]
 }
