@@ -3,14 +3,6 @@
   "timestamp": 1752336725.0,
   "versions": [
     {
-      "timestamp": 1756811549.0,
-      "version": "v4.3-inject-s",
-      "versionCode": 43,
-      "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.3-inject-s_43.zip",
-      "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.3-inject-s_43.md",
-      "size": 512908
-    },
-    {
       "timestamp": 1762093943.0,
       "version": "v4.4-inject-s",
       "versionCode": 44,
@@ -25,6 +17,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.5-inject-s_45.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.5-inject-s_45.md",
       "size": 592915
+    },
+    {
+      "timestamp": 1782033373.0,
+      "version": "v4.6-inject-s",
+      "versionCode": 46,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.6-inject-s_46.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.6-inject-s_46.md",
+      "size": 596223
     }
   ]
 }
