@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1781983041.777868
+    "timestamp": 1782012980.663281
   },
   "modules": [
     {
@@ -440,8 +440,8 @@
     {
       "id": "tricky_store",
       "name": "TEESimulator-RS",
-      "version": "v6.0.1-251",
-      "versionCode": 251,
+      "version": "v6.0.1-282",
+      "versionCode": 282,
       "author": "JingMatrix, Enginex0",
       "description": "Software simulation for Android hardware-backed key pairs with key attestation",
       "minApi": 29,
@@ -452,8 +452,8 @@
       "readme": "https://raw.githubusercontent.com/Enginex0/TEESimulator-RS/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1780145211.0,
-      "size": 2760492,
+      "timestamp": 1781884465.0,
+      "size": 2765128,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
@@ -474,14 +474,6 @@
       },
       "versions": [
         {
-          "timestamp": 1779217891.0,
-          "version": "v6.0.0-224",
-          "versionCode": 224,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.0-224_224.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.0-224_224.md",
-          "size": 2760254
-        },
-        {
           "timestamp": 1779257174.0,
           "version": "v6.0.0-235",
           "versionCode": 235,
@@ -496,6 +488,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.1-251_251.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.1-251_251.md",
           "size": 2760492
+        },
+        {
+          "timestamp": 1781884465.0,
+          "version": "v6.0.1-282",
+          "versionCode": 282,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.1-282_282.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/tricky_store/v6.0.1-282_282.md",
+          "size": 2765128
         }
       ]
     },
