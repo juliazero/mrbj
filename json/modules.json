@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1782502854.635527
+    "timestamp": 1782528084.427788
   },
   "modules": [
     {
@@ -78,8 +78,8 @@
     {
       "id": "com.chiller3.msd",
       "name": "MSD",
-      "version": "v2.0",
-      "versionCode": 131072,
+      "version": "v2.2",
+      "versionCode": 131584,
       "author": "chenxiaolong",
       "description": "Emulate mass storage devices over USB",
       "minApi": 30,
@@ -90,8 +90,8 @@
       "readme": "https://raw.githubusercontent.com/chenxiaolong/MSD/refs/heads/master/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1779930711.0,
-      "size": 4237206,
+      "timestamp": 1782514212.0,
+      "size": 4173360,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -111,14 +111,6 @@
       },
       "versions": [
         {
-          "timestamp": 1771131390.0,
-          "version": "v1.21",
-          "versionCode": 70912,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.21_70912.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v1.21_70912.md",
-          "size": 3613660
-        },
-        {
           "timestamp": 1777943512.0,
           "version": "v1.22",
           "versionCode": 71168,
@@ -133,6 +125,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v2.0_131072.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v2.0_131072.md",
           "size": 4237206
+        },
+        {
+          "timestamp": 1782514212.0,
+          "version": "v2.2",
+          "versionCode": 131584,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v2.2_131584.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/com.chiller3.msd/v2.2_131584.md",
+          "size": 4173360
         }
       ]
     },
