@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1783589332.430655
+    "timestamp": 1783608337.562347
   },
   "modules": [
     {
@@ -508,8 +508,8 @@
     {
       "id": "zygisk-detach",
       "name": "zygisk-detach",
-      "version": "v1.23.1",
-      "versionCode": 33,
+      "version": "v1.23.2",
+      "versionCode": 34,
       "author": "j-hc",
       "description": "Detaches installed apps from Play Store",
       "minApi": 24,
@@ -520,8 +520,8 @@
       "readme": "https://raw.githubusercontent.com/j-hc/zygisk-detach/refs/heads/master/README.md",
       "verified": true,
       "added": 0,
-      "timestamp": 1775565126.0,
-      "size": 370346,
+      "timestamp": 1783594311.0,
+      "size": 370347,
       "permissions": [
         "magisk.permission.POST_FS_DATA",
         "magisk.permission.ZYGISK",
@@ -541,14 +541,6 @@
       },
       "versions": [
         {
-          "timestamp": 1772740850.0,
-          "version": "v1.22.0",
-          "versionCode": 31,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.22.0_31.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.22.0_31.md",
-          "size": 369895
-        },
-        {
           "timestamp": 1775245184.0,
           "version": "v1.23.0",
           "versionCode": 32,
@@ -563,6 +555,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.23.1_33.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.23.1_33.md",
           "size": 370346
+        },
+        {
+          "timestamp": 1783594311.0,
+          "version": "v1.23.2",
+          "versionCode": 34,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.23.2_34.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.23.2_34.md",
+          "size": 370347
         }
       ]
     },
