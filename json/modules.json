@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1783756014.904636
+    "timestamp": 1783775198.06373
   },
   "modules": [
     {
@@ -317,8 +317,8 @@
     {
       "id": "playintegrityfix",
       "name": "Play Integrity Fix [INJECT]",
-      "version": "v4.6-inject-s",
-      "versionCode": 46,
+      "version": "v4.7-inject-s",
+      "versionCode": 47,
       "author": "chiteroman, KOWX712",
       "description": "Universal modular fix for Play Integrity on devices running Android 8-17",
       "categories": [
@@ -329,8 +329,8 @@
       "readme": "https://raw.githubusercontent.com/KOWX712/PlayIntegrityFix/refs/heads/master/README.md",
       "verified": true,
       "added": 0,
-      "timestamp": 1782033373.0,
-      "size": 596223,
+      "timestamp": 1783763920.0,
+      "size": 660502,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -354,14 +354,6 @@
       },
       "versions": [
         {
-          "timestamp": 1762093943.0,
-          "version": "v4.4-inject-s",
-          "versionCode": 44,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.4-inject-s_44.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.4-inject-s_44.md",
-          "size": 598301
-        },
-        {
           "timestamp": 1774675917.0,
           "version": "v4.5-inject-s",
           "versionCode": 45,
@@ -376,6 +368,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.6-inject-s_46.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.6-inject-s_46.md",
           "size": 596223
+        },
+        {
+          "timestamp": 1783763920.0,
+          "version": "v4.7-inject-s",
+          "versionCode": 47,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.7-inject-s_47.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/playintegrityfix/v4.7-inject-s_47.md",
+          "size": 660502
         }
       ]
     },
