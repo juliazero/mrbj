@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1785525558.791741
+    "timestamp": 1785548043.870809
   },
   "modules": [
     {
@@ -139,26 +139,28 @@
     {
       "id": "hybrid_mount",
       "name": "Hybrid Mount",
-      "version": "3.5.5-1605",
-      "versionCode": 305005,
+      "version": "4.2.0-1815",
+      "versionCode": 402000,
       "author": "Hybrid Mount Developers",
-      "description": "Waiting for daemon...",
+      "description": "Mount orchestration metamodule for KernelSU and APatch",
       "metamodule": "1",
       "categories": [
         "WebUI",
         "Tools"
       ],
       "license": "GPL-3.0",
-      "readme": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/master/README.md",
+      "readme": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/main/README.md",
       "verified": true,
       "added": 0,
-      "timestamp": 1777130879.0,
-      "size": 1894591,
+      "timestamp": 1782579916.0,
+      "size": 2161504,
       "permissions": [
+        "magisk.permission.SERVICE",
         "magisk.permission.SEPOLICY",
         "kernelsu.permission.WEBUI"
       ],
       "features": {
+        "service": true,
         "sepolicy": true,
         "webroot": true
       },
@@ -170,14 +172,6 @@
         "build_metadata": "https://juliazero.github.io/mrbj/modules/hybrid_mount/track.yaml"
       },
       "versions": [
-        {
-          "timestamp": 1776356591.0,
-          "version": "3.4.7-1495",
-          "versionCode": 30407,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.4.7-1495_30407.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.4.7-1495_30407.md",
-          "size": 3996755
-        },
         {
           "timestamp": 1776614473.0,
           "version": "3.5.1-1530",
@@ -193,6 +187,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.5.5-1605_305005.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/3.5.5-1605_305005.md",
           "size": 1894591
+        },
+        {
+          "timestamp": 1782579916.0,
+          "version": "4.2.0-1815",
+          "versionCode": 402000,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/4.2.0-1815_402000.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/4.2.0-1815_402000.md",
+          "size": 2161504
         }
       ]
     },
