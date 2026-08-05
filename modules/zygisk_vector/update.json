@@ -17,6 +17,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_vector/v2.1_3073-b09a9787-JingMatrix-Vector.zip",
       "changelog": "",
       "size": 9260925
+    },
+    {
+      "timestamp": 1785836308.0,
+      "version": "v2.2 (3080-88f8e1fa-JingMatrix-Vector)",
+      "versionCode": 3080,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_vector/v2.2_3080-88f8e1fa-JingMatrix-Vector.zip",
+      "changelog": "",
+      "size": 9316843
     }
   ]
 }

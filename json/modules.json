@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1785871387.697182
+    "timestamp": 1785895201.860527
   },
   "modules": [
     {
@@ -571,8 +571,8 @@
     {
       "id": "zygisk_vector",
       "name": "Vector",
-      "version": "v2.1 (3073-b09a9787-JingMatrix-Vector)",
-      "versionCode": 3073,
+      "version": "v2.2 (3080-88f8e1fa-JingMatrix-Vector)",
+      "versionCode": 3080,
       "author": "JingMatrix",
       "description": "A modern, Xposed-compatible framework for Android application hooking. (Android 8.1 ~ 17)",
       "minApi": 27,
@@ -584,8 +584,8 @@
       "readme": "https://raw.githubusercontent.com/JingMatrix/Vector/master/README.md",
       "verified": true,
       "added": 0,
-      "timestamp": 1785650519.0,
-      "size": 9260925,
+      "timestamp": 1785836308.0,
+      "size": 9316843,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.RESETPROP",
@@ -624,6 +624,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_vector/v2.1_3073-b09a9787-JingMatrix-Vector.zip",
           "changelog": "",
           "size": 9260925
+        },
+        {
+          "timestamp": 1785836308.0,
+          "version": "v2.2 (3080-88f8e1fa-JingMatrix-Vector)",
+          "versionCode": 3080,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk_vector/v2.2_3080-88f8e1fa-JingMatrix-Vector.zip",
+          "changelog": "",
+          "size": 9316843
         }
       ]
     },
