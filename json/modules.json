@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1788020877.345484
+    "timestamp": 1788036087.07347
   },
   "modules": [
     {
@@ -139,8 +139,8 @@
     {
       "id": "hybrid_mount",
       "name": "Hybrid Mount",
-      "version": "6.0.1",
-      "versionCode": 600001,
+      "version": "6.1.2",
+      "versionCode": 601002,
       "author": "Hybrid Mount Developers",
       "description": "Hybrid Mount: mixed OverlayFS and Magic Mount for KernelSU and APatch",
       "metamodule": "1",
@@ -152,13 +152,15 @@
       "readme": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/main/README.md",
       "verified": true,
       "added": 0,
-      "timestamp": 1787747452.0,
-      "size": 2803762,
+      "timestamp": 1788026305.0,
+      "size": 3422318,
       "permissions": [
-        "kernelsu.permission.WEBUI"
+        "kernelsu.permission.WEBUI",
+        "kernelsu.permission.BOOT_COMPLETED"
       ],
       "features": {
-        "webroot": true
+        "webroot": true,
+        "boot_completed": true
       },
       "track": {
         "type": "ONLINE_JSON",
@@ -168,14 +170,6 @@
         "build_metadata": "https://juliazero.github.io/mrbj/modules/hybrid_mount/track.yaml"
       },
       "versions": [
-        {
-          "timestamp": 1782579916.0,
-          "version": "4.2.0-1815",
-          "versionCode": 402000,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/4.2.0-1815_402000.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/4.2.0-1815_402000.md",
-          "size": 2161504
-        },
         {
           "timestamp": 1787738731.0,
           "version": "6.0.0",
@@ -191,6 +185,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.0.1_600001.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.0.1_600001.md",
           "size": 2803762
+        },
+        {
+          "timestamp": 1788026305.0,
+          "version": "6.1.2",
+          "versionCode": 601002,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.1.2_601002.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.1.2_601002.md",
+          "size": 3422318
         }
       ]
     },
