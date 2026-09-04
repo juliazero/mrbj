@@ -3,14 +3,6 @@
   "timestamp": 1772379581.0,
   "versions": [
     {
-      "timestamp": 1787738731.0,
-      "version": "6.0.0",
-      "versionCode": 600000,
-      "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.0.0_600000.zip",
-      "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.0.0_600000.md",
-      "size": 2764263
-    },
-    {
       "timestamp": 1787747452.0,
       "version": "6.0.1",
       "versionCode": 600001,
@@ -25,6 +17,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.1.2_601002.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.1.2_601002.md",
       "size": 3422318
+    },
+    {
+      "timestamp": 1788086437.0,
+      "version": "6.1.3",
+      "versionCode": 601003,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.1.3_601003.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.1.3_601003.md",
+      "size": 3417721
     }
   ]
 }
