@@ -3,14 +3,6 @@
   "timestamp": 1748779842.0,
   "versions": [
     {
-      "timestamp": 1775245184.0,
-      "version": "v1.23.0",
-      "versionCode": 32,
-      "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.23.0_32.zip",
-      "changelog": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.23.0_32.md",
-      "size": 370326
-    },
-    {
       "timestamp": 1775565126.0,
       "version": "v1.23.1",
       "versionCode": 33,
@@ -25,6 +17,14 @@
       "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.23.2_34.zip",
       "changelog": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.23.2_34.md",
       "size": 370347
+    },
+    {
+      "timestamp": 1789936237.0,
+      "version": "v1.24.0",
+      "versionCode": 35,
+      "zipUrl": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.24.0_35.zip",
+      "changelog": "https://juliazero.github.io/mrbj/modules/zygisk-detach/v1.24.0_35.md",
+      "size": 371409
     }
   ]
 }
