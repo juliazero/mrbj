@@ -1,14 +1,16 @@
 {
   "id": "zygisk-detach",
-  "update_to": "https://github.com/j-hc/zygisk-detach.git",
   "enable": true,
   "verified": true,
+  "update_to": "https://github.com/j-hc/zygisk-detach.git",
+  "license": "GPL-3.0",
   "homepage": "https://github.com/j-hc/zygisk-detach",
   "source": "https://github.com/j-hc/zygisk-detach",
-  "license": "GPL-3.0",
-  "category": "Utility",
-  "categories": ["Utility"],
   "maxApi": 36,
+  "category": "Utility",
+  "categories": [
+    "Utility"
+  ],
   "arch": [
     "arm64-v8a"
   ],
@@ -16,5 +18,7 @@
     "github": {
       "source": "releases"
     }
-  }
+  },
+  "last_update": 1789936239.0,
+  "versions": 1
 }

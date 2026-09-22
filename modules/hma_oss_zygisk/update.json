@@ -1,0 +1,14 @@
+{
+  "id": "hma_oss_zygisk",
+  "timestamp": 1789329809.0,
+  "versions": [
+    {
+      "timestamp": 1789329809.0,
+      "version": "oss-168",
+      "versionCode": 7304651,
+      "zipUrl": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-168/HMA-OSS-ZYGISK-oss-168-release.zip",
+      "changelog": "",
+      "size": 2584181
+    }
+  ]
+}

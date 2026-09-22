@@ -7,38 +7,169 @@
   "cover": "https://juliazero.github.io/mrbj/assets/cover.webp",
   "description": "My small modules repo.",
   "metadata": {
-    "version": 1
+    "version": 1,
+    "timestamp": 1790093474.9477222
   },
   "modules": [
     {
-      "id": "alwaysstrong"
+      "id": "alwaysstrong",
+      "versions": [
+        {
+          "timestamp": 1788691190.0,
+          "version": "v1.0.4",
+          "versionCode": 104,
+          "zipUrl": "https://github.com/evoker0/AlwaysStrong/releases/download/v1.0.4/AlwaysStrong-v1.0.4.zip",
+          "changelog": "",
+          "size": 4902582
+        }
+      ],
+      "version": "v1.0.4",
+      "versionCode": 104,
+      "size": 4902582
     },
     {
-      "id": "hma_oss_zygisk"
+      "id": "hma_oss_zygisk",
+      "versions": [
+        {
+          "timestamp": 1789329809.0,
+          "version": "oss-168",
+          "versionCode": 7304651,
+          "zipUrl": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-168/HMA-OSS-ZYGISK-oss-168-release.zip",
+          "changelog": "",
+          "size": 2584181
+        }
+      ],
+      "version": "oss-168",
+      "versionCode": 7304651,
+      "size": 2584181
     },
     {
-      "id": "hybrid_mount"
+      "id": "hybrid_mount",
+      "versions": [
+        {
+          "timestamp": 1789996082.0,
+          "version": "6.2.1",
+          "versionCode": 602001999,
+          "zipUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.1/Hybrid-Mount-6.2.1-2042.zip",
+          "changelog": "",
+          "size": 4968062
+        }
+      ],
+      "version": "6.2.1",
+      "versionCode": 602001999,
+      "size": 4968062
     },
     {
-      "id": "ios-emoji"
+      "id": "ios-emoji",
+      "versions": [
+        {
+          "timestamp": 1782413177.0,
+          "version": "v26.4",
+          "versionCode": 26400,
+          "zipUrl": "https://github.com/Keinta15/Magisk-iOS-Emoji/releases/download/v26.4/Magisk_iOS_Emoji_26.4.zip",
+          "changelog": "",
+          "size": 34470804
+        }
+      ],
+      "version": "v26.4",
+      "versionCode": 26400,
+      "size": 34470804
     },
     {
-      "id": "msd"
+      "id": "msd",
+      "versions": [
+        {
+          "timestamp": 1789768956.0,
+          "version": "v2.5",
+          "versionCode": 132352,
+          "zipUrl": "https://github.com/chenxiaolong/MSD/releases/download/v2.5/MSD-2.5-release.zip",
+          "changelog": "",
+          "size": 4146040
+        }
+      ],
+      "version": "v2.5",
+      "versionCode": 132352,
+      "size": 4146040
     },
     {
-      "id": "music-morphe"
+      "id": "music-morphe",
+      "versions": [
+        {
+          "timestamp": 1790013886.0,
+          "version": "v21.16.256 (patches 1.44.0.mpp)",
+          "versionCode": 20221095,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221095/music-morphe-module-v9.15.51-arm64-v8a.zip",
+          "changelog": "",
+          "size": 68160725
+        }
+      ],
+      "version": "v21.16.256 (patches 1.44.0.mpp)",
+      "versionCode": 20221095,
+      "size": 68160725
     },
     {
-      "id": "rezygisk"
+      "id": "rezygisk",
+      "versions": [
+        {
+          "timestamp": 1778454538.0,
+          "version": "v1.0.0 (515-333d423-release)",
+          "versionCode": 515,
+          "zipUrl": "https://github.com/PerformanC/ReZygisk/releases/download/v1.0.0/ReZygisk-v1.0.0-release.zip",
+          "changelog": "",
+          "size": 506334
+        }
+      ],
+      "version": "v1.0.0 (515-333d423-release)",
+      "versionCode": 515,
+      "size": 506334
     },
     {
-      "id": "vector"
+      "id": "vector",
+      "versions": [
+        {
+          "timestamp": 1788761880.0,
+          "version": "v2.2 (3111-efb82883-JingMatrix-Vector)",
+          "versionCode": 3111,
+          "zipUrl": "https://github.com/JingMatrix/Vector/releases/download/canary-3111/Vector-v2.2-3111-Release.zip",
+          "changelog": "",
+          "size": 9403029
+        }
+      ],
+      "version": "v2.2 (3111-efb82883-JingMatrix-Vector)",
+      "versionCode": 3111,
+      "size": 9403029
     },
     {
-      "id": "youtube-morphe"
+      "id": "youtube-morphe",
+      "versions": [
+        {
+          "timestamp": 1790013886.0,
+          "version": "v21.16.256 (patches 1.44.0.mpp)",
+          "versionCode": 20221095,
+          "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20221095/youtube-morphe-module-v21.16.256-all.zip",
+          "changelog": "",
+          "size": 215022122
+        }
+      ],
+      "version": "v21.16.256 (patches 1.44.0.mpp)",
+      "versionCode": 20221095,
+      "size": 215022122
     },
     {
-      "id": "zygisk-detach"
+      "id": "zygisk-detach",
+      "versions": [
+        {
+          "timestamp": 1789936239.0,
+          "version": "v1.24.0",
+          "versionCode": 35,
+          "zipUrl": "https://github.com/j-hc/zygisk-detach/releases/download/v1.24.0/zygisk-detach-v1.24.0.zip",
+          "changelog": "",
+          "size": 371409
+        }
+      ],
+      "version": "v1.24.0",
+      "versionCode": 35,
+      "size": 371409
     }
   ]
 }

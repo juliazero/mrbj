@@ -1,0 +1,14 @@
+{
+  "id": "rezygisk",
+  "timestamp": 1778454538.0,
+  "versions": [
+    {
+      "timestamp": 1778454538.0,
+      "version": "v1.0.0 (515-333d423-release)",
+      "versionCode": 515,
+      "zipUrl": "https://github.com/PerformanC/ReZygisk/releases/download/v1.0.0/ReZygisk-v1.0.0-release.zip",
+      "changelog": "",
+      "size": 506334
+    }
+  ]
+}
