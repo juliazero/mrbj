@@ -1,0 +1,120 @@
+#Made by zelect0r
+
+name: Update module repository
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-modules.yml"
+      - "json/config.json"
+      - "modules/**"
+  schedule:
+    # The offset avoids the busiest point of the hour.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-module-repository
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install MMRL-Util
+        run: pip install --disable-pip-version-check mmrl-util==2.15.24
+
+      - name: Fetch releases and rebuild the MMRL index
+        env:
+          # MMRL-Util versions use both names internally for GitHub release
+          # discovery and metadata requests.
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_API_TOKEN: ${{ github.token }}
+        run: |
+          # mmrl-util downloads each module's latest release ZIP and parses it
+          # to refresh update.json with the current version/versionCode. The
+          # release ZIPs are not committed (several exceed GitHub's 100 MB
+          # per-file limit), so they exist only transiently during this step.
+          mmrl-util sync --force --size 300 --single
+
+          # NOTE: we intentionally do NOT run `mmrl-util index` anymore. It
+          # rebuilds json/modules.json from scratch but SKIPS every module whose
+          # release ZIP is not on disk (see sync/core/Index.py). Since those
+          # ZIPs are gitignored, a fresh checkout has none of them, so `index`
+          # would silently drop all but the modules that got a new release in
+          # this run, breaking the "every enabled track must be published"
+          # invariant below. Instead we keep the committed (complete)
+          # json/modules.json and have update_urls.py refresh it below.
+
+          # Refresh the published index from the freshly synced update.json:
+          # reorder versions newest-first and point every module's newest
+          # download at the canonical upstream GitHub release asset (instead of
+          # the self-hosted 404 links that mmrl-util would emit).
+          python .github/update_urls.py --root "$GITHUB_WORKSPACE"
+
+          # Do not publish a partial repository: every enabled track must be
+          # represented in MMRL's index and expose its newest ZIP download.
+          # MMRL installs the FIRST entry of `versions`, so the newest release
+          # must be the first one (update_urls.py enforces newest-first order).
+          expected_ids="$(mktemp)"
+          published_ids="$(mktemp)"
+          jq -s -r '[.[] | select(.enable == true) | .id] | sort | join("\n")' \
+            modules/*/track.json > "$expected_ids"
+          jq -r '[.modules[].id] | sort | join("\n")' json/modules.json > "$published_ids"
+          missing="$(comm -23 "$expected_ids" "$published_ids" | tr '\n' ' ' | sed 's/ *$//')"
+          rm -f "$expected_ids" "$published_ids"
+          if [ -n "$missing" ]; then
+            echo "::error::Modules missing from json/modules.json: [$missing]"
+            exit 1
+          fi
+          jq -e 'all(.modules[]; (.versions[0].zipUrl? | type) == "string")' json/modules.json
+
+          # The newest release must be first, so MMRL installs it.
+          jq -e '
+            all(.modules[];
+              (.versions[0].versionCode // 0) >= (.versions[-1].versionCode // 0)
+            )
+          ' json/modules.json
+
+          # Every module must install from a direct upstream release, never a
+          # self-hosted link on this repository's Pages (those do not exist).
+          jq -e '
+            all(.modules[];
+              (.versions[0].zipUrl? | type) == "string" and
+              ((.versions[0].zipUrl | ascii_downcase) | contains("github.io") | not)
+            )
+          ' json/modules.json || {
+            echo "::error::Self-hosted github.io download link found in json/modules.json"
+            exit 1
+          }
+
+          # Assert that MMRL will install the current artifact for every module.
+          for update_file in modules/*/update.json; do
+            module_id="$(jq -r '.id' "$update_file")"
+            latest_zip_url="$(jq -r '.versions[0].zipUrl' "$update_file")"
+            jq -e --arg id "$module_id" --arg url "$latest_zip_url" \
+              'any(.modules[]; .id == $id and .versions[0].zipUrl == $url)' \
+              json/modules.json > /dev/null
+          done
+
+      - name: Commit updated modules
+        run: |
+          if git diff --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add json/modules.json modules .github/update_urls.py
+          git commit -m "Update module releases"
+          git push

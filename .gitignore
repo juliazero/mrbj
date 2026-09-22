@@ -1,11 +1,13 @@
-# Local files
-local/
+# Build output
+*.zip
+build/
+out/
 
-# Log files
-log/
+# Temporary files
+*.log
+*.tmp
+*.bak
 
-# Util tools
-util/
-
-# MacOS
-.DS_Store
+# IDE
+.idea/
+repo.json

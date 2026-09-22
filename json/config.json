@@ -1,12 +1,13 @@
 {
-  "name": "Template Magisk Modules Repository",
-  "website": null,
+  "id": "mrbj",
+  "name": "Modules Repo by Julia",
+  "website": "https://github.com/juliazero/mrbj",
   "support": null,
-  "donate": null,
+  "donate": "https://ko-fi.com/juliazero",
   "submission": null,
-  "base_url": "https://example.com/",
-  "description": null,
-  "max_num": 2,
+  "base_url": "https://juliazero.github.io/mrbj/",
+  "description": "My small modules repo.",
+  "max_num": 3,
   "enable_log": true,
   "log_dir": "log"
 }

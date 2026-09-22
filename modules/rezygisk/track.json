@@ -1,0 +1,22 @@
+{
+  "id": "rezygisk",
+  "enable": true,
+  "verified": true,
+  "update_to": "https://github.com/PerformanC/ReZygisk.git",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/PerformanC/ReZygisk",
+  "source": "https://github.com/PerformanC/ReZygisk",
+  "maxApi": 36,
+  "category": "Tools",
+  "categories": [
+    "Tools"
+  ],
+  "arch": [
+    "arm64-v8a"
+  ],
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  }
+}

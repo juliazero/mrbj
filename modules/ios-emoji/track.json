@@ -1,0 +1,22 @@
+{
+  "id": "ios-emoji",
+  "enable": true,
+  "verified": true,
+  "update_to": "https://github.com/Keinta15/Magisk-iOS-Emoji.git",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/Keinta15/Magisk-iOS-Emoji",
+  "source": "https://github.com/Keinta15/Magisk-iOS-Emoji",
+  "maxApi": 36,
+  "category": "Themes",
+  "categories": [
+    "Themes"
+  ],
+  "arch": [
+    "arm64-v8a"
+  ],
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  }
+}

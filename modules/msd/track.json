@@ -1,0 +1,24 @@
+{
+  "id": "msd",
+  "enable": true,
+  "verified": true,
+  "update_to": "https://github.com/chenxiaolong/MSD.git",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/chenxiaolong/MSD",
+  "source": "https://github.com/chenxiaolong/MSD",
+  "maxApi": 36,
+  "category": "Tools",
+  "categories": [
+    "Tools"
+  ],
+  "arch": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64"
+  ],
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "vector",
+  "enable": true,
+  "verified": true,
+  "update_to": "https://github.com/JingMatrix/Vector.git",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/JingMatrix/Vector",
+  "source": "https://github.com/JingMatrix/Vector",
+  "maxApi": 36,
+  "category": "Tools",
+  "categories": [
+    "Tools"
+  ],
+  "arch": [
+    "arm64-v8a"
+  ],
+  "options": {
+    "github": {
+      "source": "releases"
+    }
+  }
+}
