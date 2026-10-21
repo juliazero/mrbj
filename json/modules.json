@@ -9,7 +9,7 @@
   "description": "My small modules repo.",
   "metadata": {
     "version": 1,
-    "timestamp": 1792531437.26623
+    "timestamp": 1792554922.703593
   },
   "modules": [
     {
@@ -139,8 +139,8 @@
     {
       "id": "hybrid_mount",
       "name": "Hybrid Mount",
-      "version": "6.2.3-rc.3",
-      "versionCode": 602003303,
+      "version": "6.2.3",
+      "versionCode": 602003999,
       "author": "Hybrid Mount Developers",
       "description": "Hybrid Mount: mixed OverlayFS, Magic Mount, and VFS for KernelSU and APatch",
       "metamodule": "1",
@@ -152,8 +152,8 @@
       "readme": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/main/README.md",
       "verified": true,
       "added": 0,
-      "timestamp": 1790988338.0,
-      "size": 4937628,
+      "timestamp": 1791694186.0,
+      "size": 4923231,
       "permissions": [
         "kernelsu.permission.WEBUI",
         "kernelsu.permission.BOOT_COMPLETED"
@@ -171,14 +171,6 @@
       },
       "versions": [
         {
-          "timestamp": 1790709260.0,
-          "version": "6.2.3-rc.1",
-          "versionCode": 602003301,
-          "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.2.3-rc.1_602003301.zip",
-          "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.2.3-rc.1_602003301.md",
-          "size": 6728704
-        },
-        {
           "timestamp": 1790773921.0,
           "version": "6.2.3-rc.2",
           "versionCode": 602003302,
@@ -193,6 +185,14 @@
           "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.2.3-rc.3_602003303.zip",
           "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.2.3-rc.3_602003303.md",
           "size": 4937628
+        },
+        {
+          "timestamp": 1791694186.0,
+          "version": "6.2.3",
+          "versionCode": 602003999,
+          "zipUrl": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.2.3_602003999.zip",
+          "changelog": "https://juliazero.github.io/mrbj/modules/hybrid_mount/6.2.3_602003999.md",
+          "size": 4923231
         }
       ]
     },
